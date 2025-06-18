@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?text=Hey Everyone!🕹️&animation=fadeIn&type=waving&color=gradient&height=100"/>
+</p>
+
 <h1 align="center">Hi 👋, I'm Abu Sayem Rony</h1>
 <h3 align="center">Competitive Programmer 🏆 | Backend Enthusiast ✨ | Exploring Tech's Depths 🔍</h3>
 
