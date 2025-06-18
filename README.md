@@ -12,7 +12,7 @@
 
 - 📫 How to reach me **cpp.sayem@gmail.com**
 
-- ⚡ Fun fact **try to use a system ⚫ never used by a system**
+- ⚡ Fun fact ✨ **try to use a system ⚫ never used by a system**
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
