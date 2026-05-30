@@ -1,0 +1,27 @@
+<<<<<<< HEAD
+<svg width="1280" height="430" viewBox="0 0 1280 430" xmlns="http://www.w3.org/2000/svg">
+<rect width="1280" height="430" rx="30" fill="#020617"/><text x="640" y="56" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">Project Showcase Blueprint</text><text x="640" y="88" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="600">pin repositories that prove DevOps skill + problem-solving depth</text>
+<g font-family="Inter,Segoe UI,Arial">
+  <g transform="translate(70 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#38BDF8"/><text x="24" y="38" fill="#38BDF8" font-size="18" font-weight="900">k8s-deployment-lab</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Kubernetes manifests, ingress, services, configs</text></g>
+  <g transform="translate(465 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#22C55E"/><text x="24" y="38" fill="#22C55E" font-size="18" font-weight="900">ci-cd-pipeline-lab</text><text x="24" y="70" fill="#CBD5E1" font-size="14">GitLab CI/CD, parallel pipeline, release flow</text></g>
+  <g transform="translate(860 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#8B5CF6"/><text x="24" y="38" fill="#A78BFA" font-size="18" font-weight="900">vault-k8s-secrets</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Vault, auto-unseal, Kubernetes secret delivery</text></g>
+  <g transform="translate(70 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#F97316"/><text x="24" y="38" fill="#FDBA74" font-size="18" font-weight="900">grafana-observability</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Prometheus, dashboards, service graph notes</text></g>
+  <g transform="translate(465 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#EF4444"/><text x="24" y="38" fill="#FCA5A5" font-size="18" font-weight="900">elk-efk-logging</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Elastic tuning, Fluent Bit, Kibana, logs</text></g>
+  <g transform="translate(860 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#60A5FA"/><text x="24" y="38" fill="#93C5FD" font-size="18" font-weight="900">cp-template</text><text x="24" y="70" fill="#CBD5E1" font-size="14">C++ templates, algorithms, debugging utilities</text></g>
+</g></svg>
+=======
+<svg width="1200" height="420" viewBox="0 0 1200 420" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="420"><stop stop-color="#020617"/><stop offset="1" stop-color="#0f172a"/></linearGradient></defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)" stroke="#334155"/>
+  <text x="600" y="58" font-family="Segoe UI,Arial" font-size="32" font-weight="900" text-anchor="middle" fill="#fff">Project Showcase Blueprint</text>
+  <text x="600" y="88" font-family="Segoe UI,Arial" font-size="17" text-anchor="middle" fill="#94a3b8">Pin repositories that prove your DevOps and problem-solving skill</text>
+  <g font-family="Segoe UI,Arial" fill="#fff">
+    <g><rect x="70" y="130" width="320" height="100" rx="20" fill="#071d36" stroke="#38bdf8"/><text x="95" y="165" font-size="22" font-weight="900">k8s-deployment-lab</text><text x="95" y="197" font-size="16" fill="#cbd5e1">Kubernetes manifests, ingress, services</text></g>
+    <g><rect x="440" y="130" width="320" height="100" rx="20" fill="#071d36" stroke="#38bdf8"/><text x="465" y="165" font-size="22" font-weight="900">gitlab-ci-cd-pipeline</text><text x="465" y="197" font-size="16" fill="#cbd5e1">Parallel pipeline, build, deploy flow</text></g>
+    <g><rect x="810" y="130" width="320" height="100" rx="20" fill="#071d36" stroke="#38bdf8"/><text x="835" y="165" font-size="22" font-weight="900">vault-k8s-secrets</text><text x="835" y="197" font-size="16" fill="#cbd5e1">Vault, secret injection, K8s workload</text></g>
+    <g><rect x="70" y="260" width="320" height="100" rx="20" fill="#1e1b4b" stroke="#a78bfa"/><text x="95" y="295" font-size="22" font-weight="900">grafana-service-graph</text><text x="95" y="327" font-size="16" fill="#cbd5e1">Dashboards, metrics, service visibility</text></g>
+    <g><rect x="440" y="260" width="320" height="100" rx="20" fill="#1e1b4b" stroke="#a78bfa"/><text x="465" y="295" font-size="22" font-weight="900">elk-efk-observability</text><text x="465" y="327" font-size="16" fill="#cbd5e1">Logging, tuning, Elasticsearch notes</text></g>
+    <g><rect x="810" y="260" width="320" height="100" rx="20" fill="#1e1b4b" stroke="#a78bfa"/><text x="835" y="295" font-size="22" font-weight="900">cp-template-cpp</text><text x="835" y="327" font-size="16" fill="#cbd5e1">DSA, algorithms, contest templates</text></g>
+  </g>
+</svg>
+>>>>>>> 85a078214df70d4653e25f95a128abaef0f1cca1

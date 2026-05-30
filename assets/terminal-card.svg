@@ -1,0 +1,36 @@
+<<<<<<< HEAD
+<svg width="1280" height="430" viewBox="0 0 1280 430" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="a" x1="0" x2="1280" y1="0" y2="430"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1280" height="430" rx="30" fill="url(#a)"/><rect x="38" y="38" width="1204" height="354" rx="22" fill="#0B1220" stroke="#334155"/>
+<circle cx="70" cy="66" r="8" fill="#EF4444"/><circle cx="96" cy="66" r="8" fill="#F59E0B"/><circle cx="122" cy="66" r="8" fill="#22C55E"/>
+<text x="58" y="120" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="24" font-weight="700">sayem@cloud-native:~$ whoami</text>
+<text x="58" y="165" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="22">Md. Abu Sayem Rony — Junior DevOps Engineer @ Foodi</text>
+<text x="58" y="215" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="24" font-weight="700">sayem@cloud-native:~$ cat focus.yml</text>
+<text x="58" y="260" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">kubernetes: deployments, services, ingress, vault-secrets, troubleshooting</text>
+<text x="58" y="296" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">devops: aws, ci/cd, argocd, grafana, prometheus, elk/efk, automation</text>
+<text x="58" y="332" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">cp: icpc regionalist, codeforces expert, algorithms, debugging</text>
+<text x="58" y="368" fill="#22C55E" font-family="Fira Code,Consolas,monospace" font-size="20">mission: ship reliable systems, observe deeply, improve continuously 🚀</text>
+</svg>
+=======
+<svg width="1100" height="360" viewBox="0 0 1100 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1100" y1="0" y2="360">
+      <stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="20" flood-opacity="0.35"/></filter>
+  </defs>
+  <rect width="1100" height="360" rx="28" fill="url(#bg)" stroke="#334155"/>
+  <rect x="0" y="0" width="1100" height="52" rx="28" fill="#0f172a"/>
+  <circle cx="34" cy="26" r="8" fill="#ef4444"/><circle cx="60" cy="26" r="8" fill="#f59e0b"/><circle cx="86" cy="26" r="8" fill="#22c55e"/>
+  <text x="120" y="33" font-family="Fira Code, Consolas, monospace" font-size="16" fill="#94a3b8">sayem@cloud-native-terminal: ~/profile</text>
+  <g font-family="Fira Code, Consolas, monospace" font-size="24">
+    <text x="38" y="96" fill="#38bdf8">$ whoami</text>
+    <text x="38" y="132" fill="#e5e7eb">Md. Abu Sayem Rony — Junior DevOps Engineer @ Foodi</text>
+    <text x="38" y="178" fill="#38bdf8">$ stack --current</text>
+    <text x="38" y="214" fill="#e5e7eb">Kubernetes | AWS | CI/CD | Linux | Docker | Vault | ArgoCD | Grafana | ELK/EFK</text>
+    <text x="38" y="260" fill="#38bdf8">$ mindset</text>
+    <text x="38" y="296" fill="#e5e7eb">Automate what repeats. Monitor what matters. Secure what is sensitive.</text>
+    <text x="38" y="332" fill="#a78bfa">$ cp --identity: ICPC Regionalist | Codeforces Expert | Problem Solver</text>
+  </g>
+</svg>
+>>>>>>> 85a078214df70d4653e25f95a128abaef0f1cca1
