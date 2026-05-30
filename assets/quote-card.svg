@@ -1,2 +1,12 @@
+<<<<<<< HEAD
 <svg width="1280" height="240" viewBox="0 0 1280 240" xmlns="http://www.w3.org/2000/svg">
 <defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0F172A"/><stop offset="0.5" stop-color="#312E81"/><stop offset="1" stop-color="#020617"/></linearGradient></defs><rect width="1280" height="240" rx="30" fill="url(#bg)"/><text x="640" y="82" text-anchor="middle" fill="#38BDF8" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="900">⚡ Fun Fact ✨</text><text x="640" y="145" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="30" font-weight="900">try to use a system ⚫ never used by a system</text><text x="640" y="188" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="600">Build. Break. Debug. Improve. Repeat.</text></svg>
+=======
+<svg width="1000" height="210" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1000" y1="0" y2="210"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient></defs>
+  <rect width="1000" height="210" rx="28" fill="url(#bg)" stroke="#334155"/>
+  <text x="500" y="82" font-family="Segoe UI,Arial" font-size="30" font-weight="900" text-anchor="middle" fill="#fff">✨ try to use a system ⚫ never used by a system ✨</text>
+  <text x="500" y="130" font-family="Segoe UI,Arial" font-size="18" text-anchor="middle" fill="#94a3b8">Think differently. Build carefully. Improve continuously.</text>
+  <text x="500" y="164" font-family="Segoe UI,Arial" font-size="16" text-anchor="middle" fill="#38bdf8">DevOps • Competitive Programming • Cloud-Native Engineering</text>
+</svg>
+>>>>>>> 85a078214df70d4653e25f95a128abaef0f1cca1

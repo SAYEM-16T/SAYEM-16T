@@ -1,6 +1,24 @@
+<<<<<<< HEAD
 <svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg">
 <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="l" x1="0" x2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs><rect width="1280" height="420" rx="30" fill="url(#bg)"/><text x="640" y="62" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">Engineering DNA</text>
 <g transform="translate(80 120)"><rect width="520" height="230" rx="26" fill="#0B1220" stroke="#38BDF8"/><text x="260" y="55" text-anchor="middle" fill="#38BDF8" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="900">⚙️ DevOps Engineer</text><text x="260" y="105" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Kubernetes • AWS • CI/CD • Linux • Docker</text><text x="260" y="145" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Vault • ArgoCD • Grafana • ELK/EFK</text><text x="260" y="190" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="600">Deploy reliably. Observe deeply. Secure secrets.</text></g>
 <g transform="translate(680 120)"><rect width="520" height="230" rx="26" fill="#0B1220" stroke="#8B5CF6"/><text x="260" y="55" text-anchor="middle" fill="#A78BFA" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="900">🏆 Competitive Programmer</text><text x="260" y="105" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">ICPC Regionalist • Codeforces Expert</text><text x="260" y="145" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Algorithms • Debugging • Pressure Handling</text><text x="260" y="190" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="600">Think clearly. Solve fast. Improve continuously.</text></g>
 <path d="M600 235 C630 185, 650 285, 680 235" stroke="url(#l)" stroke-width="5" fill="none"/>
 </svg>
+=======
+<svg width="1200" height="360" viewBox="0 0 1200 360" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1200" y1="0" y2="360"><stop stop-color="#020617"/><stop offset=".5" stop-color="#082f49"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient><linearGradient id="a" x1="0" x2="1"><stop stop-color="#0ea5e9" stop-opacity=".28"/><stop offset="1" stop-color="#22c55e" stop-opacity=".20"/></linearGradient><linearGradient id="b" x1="0" x2="1"><stop stop-color="#8b5cf6" stop-opacity=".28"/><stop offset="1" stop-color="#f97316" stop-opacity=".20"/></linearGradient></defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)" stroke="#334155"/>
+  <text x="600" y="58" font-family="Segoe UI,Arial" font-size="34" font-weight="900" text-anchor="middle" fill="#fff">Engineering DNA</text>
+  <rect x="70" y="100" width="500" height="205" rx="26" fill="url(#a)" stroke="#38bdf8"/>
+  <rect x="630" y="100" width="500" height="205" rx="26" fill="url(#b)" stroke="#a78bfa"/>
+  <text x="320" y="148" font-family="Segoe UI,Arial" font-size="28" font-weight="900" text-anchor="middle" fill="#fff">⚙️ DevOps Engineer</text>
+  <text x="320" y="190" font-family="Segoe UI,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#cbd5e1">Kubernetes • AWS • CI/CD • Linux • Docker</text>
+  <text x="320" y="230" font-family="Segoe UI,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#cbd5e1">Vault • ArgoCD • Grafana • Prometheus • ELK/EFK</text>
+  <text x="320" y="270" font-family="Segoe UI,Arial" font-size="17" text-anchor="middle" fill="#94a3b8">Reliability • Automation • Observability • Security</text>
+  <text x="880" y="148" font-family="Segoe UI,Arial" font-size="28" font-weight="900" text-anchor="middle" fill="#fff">🏆 Competitive Programmer</text>
+  <text x="880" y="190" font-family="Segoe UI,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#cbd5e1">ICPC Regionalist • Codeforces Expert</text>
+  <text x="880" y="230" font-family="Segoe UI,Arial" font-size="20" font-weight="700" text-anchor="middle" fill="#cbd5e1">Algorithms • Data Structures • Debugging</text>
+  <text x="880" y="270" font-family="Segoe UI,Arial" font-size="17" text-anchor="middle" fill="#94a3b8">Problem Solving • Pressure Handling • Structured Thinking</text>
+</svg>
+>>>>>>> 85a078214df70d4653e25f95a128abaef0f1cca1
