@@ -272,13 +272,25 @@ DevOps/
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/sayem19rony"><img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sayemiitju@gmail.com"><img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://codeforces.com/profile/sayem_19"><img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-  <a href="https://www.codechef.com/users/sayem_18"><img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/sayem19rony">
+    <img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sayemiitju@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://codeforces.com/profile/sayem_19">
+    <img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  </a>
+  <a href="https://www.codechef.com/users/sayem_18">
+    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
+  </a>
 </p>
 
 ---
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=850&lines=Learning.+Building.+Solving.+Improving.;Kubernetes+Mindset.+Production+Thinking.;Competitive+Programming+Brain.+DevOps+Execution." alt="Footer Typing SVG" />
+</p>
 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:0f172a&height=130&section=footer" />
