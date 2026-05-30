@@ -1,0 +1,12 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420"><stop stop-color="#030712"/><stop offset="1" stop-color="#0f172a"/></linearGradient><filter id="s"><feDropShadow dx="0" dy="16" stdDeviation="16" flood-color="#000" flood-opacity="0.45"/></filter></defs>
+<rect width="1280" height="420" rx="28" fill="url(#bg)"/>
+<rect x="60" y="55" width="1160" height="310" rx="22" fill="#020617" stroke="#334155" filter="url(#s)"/>
+<circle cx="92" cy="85" r="8" fill="#ef4444"/><circle cx="118" cy="85" r="8" fill="#f59e0b"/><circle cx="144" cy="85" r="8" fill="#22c55e"/>
+<text x="80" y="135" fill="#22c55e" font-family="Consolas, monospace" font-size="22" font-weight="700">$ whoami</text>
+<text x="105" y="170" fill="#e5e7eb" font-family="Consolas, monospace" font-size="21">Md. Abu Sayem Rony — Junior DevOps Engineer @ Foodi</text>
+<text x="80" y="215" fill="#22c55e" font-family="Consolas, monospace" font-size="22" font-weight="700">$ current_stack --focus</text>
+<text x="105" y="250" fill="#cbd5e1" font-family="Consolas, monospace" font-size="21">Kubernetes | AWS | CI/CD | Vault | ArgoCD | Grafana | ELK/EFK | Linux</text>
+<text x="80" y="295" fill="#22c55e" font-family="Consolas, monospace" font-size="22" font-weight="700">$ mindset</text>
+<text x="105" y="330" fill="#67e8f9" font-family="Consolas, monospace" font-size="21">Learning. Building. Solving. Improving. Onwards and upwards.</text>
+</svg>

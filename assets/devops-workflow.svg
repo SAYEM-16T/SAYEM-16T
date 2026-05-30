@@ -1,0 +1,28 @@
+<svg width="1280" height="360" viewBox="0 0 1280 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="line" x1="70" y1="180" x2="1210" y2="180" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-opacity="0.45"/></filter>
+  </defs>
+  <rect width="1280" height="360" rx="30" fill="url(#bg)"/>
+  <text x="640" y="50" text-anchor="middle" fill="#ffffff" font-family="Segoe UI, Arial" font-size="30" font-weight="800">DevOps Workflow I Work With</text>
+  <text x="640" y="82" text-anchor="middle" fill="#94a3b8" font-family="Segoe UI, Arial" font-size="16">From developer push to production reliability, observability, and troubleshooting</text>
+  <path d="M96 185 H1184" stroke="url(#line)" stroke-width="4" opacity="0.75"/>
+  <g font-family="Segoe UI, Arial" filter="url(#shadow)">
+    <g transform="translate(55 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#38bdf8"/><text x="75" y="40" fill="#e0f2fe" text-anchor="middle" font-size="17" font-weight="800">Developer</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Push / MR</text></g>
+    <g transform="translate(228 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#60a5fa"/><text x="75" y="40" fill="#dbeafe" text-anchor="middle" font-size="17" font-weight="800">GitLab CI</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Build • Test</text></g>
+    <g transform="translate(401 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#22d3ee"/><text x="75" y="40" fill="#cffafe" text-anchor="middle" font-size="17" font-weight="800">Docker</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Container Image</text></g>
+    <g transform="translate(574 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#fb7185"/><text x="75" y="40" fill="#ffe4e6" text-anchor="middle" font-size="17" font-weight="800">ArgoCD</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">GitOps Sync</text></g>
+    <g transform="translate(747 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#818cf8"/><text x="75" y="40" fill="#e0e7ff" text-anchor="middle" font-size="17" font-weight="800">Kubernetes</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Deploy • Scale</text></g>
+    <g transform="translate(920 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#a78bfa"/><text x="75" y="40" fill="#ede9fe" text-anchor="middle" font-size="17" font-weight="800">Vault</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Secrets</text></g>
+    <g transform="translate(1093 128)"><rect width="150" height="96" rx="18" fill="#0f172a" stroke="#4ade80"/><text x="75" y="40" fill="#dcfce7" text-anchor="middle" font-size="17" font-weight="800">Observe</text><text x="75" y="65" fill="#94a3b8" text-anchor="middle" font-size="13">Grafana • ELK</text></g>
+  </g>
+  <text x="640" y="300" text-anchor="middle" fill="#cbd5e1" font-family="Consolas, monospace" font-size="18">Automate what repeats • Monitor what matters • Secure what is sensitive • Document what helps the team</text>
+</svg>

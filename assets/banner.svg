@@ -1,0 +1,74 @@
+<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
+    </linearGradient>
+    <radialGradient id="glow1" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(250 90) rotate(60) scale(420 300)">
+      <stop stop-color="#38bdf8" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glow2" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(1000 300) rotate(40) scale(450 330)">
+      <stop stop-color="#a855f7" stop-opacity="0.40"/>
+      <stop offset="1" stop-color="#a855f7" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="stroke" x1="130" y1="0" x2="1150" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22d3ee"/>
+      <stop offset="0.55" stop-color="#3b82f6"/>
+      <stop offset="1" stop-color="#a855f7"/>
+    </linearGradient>
+    <filter id="blur"><feGaussianBlur stdDeviation="24"/></filter>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="12" stdDeviation="20" flood-color="#020617" flood-opacity="0.7"/></filter>
+    <pattern id="grid" width="38" height="38" patternUnits="userSpaceOnUse">
+      <path d="M 38 0 L 0 0 0 38" fill="none" stroke="#334155" stroke-width="0.7" opacity="0.35"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="420" rx="32" fill="url(#bg)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#grid)" opacity="0.75"/>
+  <rect width="1280" height="420" rx="32" fill="url(#glow1)"/>
+  <rect width="1280" height="420" rx="32" fill="url(#glow2)"/>
+
+  <g opacity="0.9">
+    <path d="M80 320 C260 180, 370 390, 540 250 S800 70, 1160 150" stroke="url(#stroke)" stroke-width="2.4" opacity="0.65"/>
+    <path d="M120 110 C320 230, 450 50, 650 150 S930 330, 1190 240" stroke="#22d3ee" stroke-width="1.4" opacity="0.35" stroke-dasharray="8 10"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="70" y="70" width="1140" height="280" rx="28" fill="#020617" opacity="0.74" stroke="url(#stroke)" stroke-width="2"/>
+  </g>
+
+  <g transform="translate(105 115)">
+    <text x="0" y="0" fill="#67e8f9" font-family="Segoe UI, Arial, sans-serif" font-size="20" font-weight="700" letter-spacing="2">CLOUD-NATIVE DEVOPS • COMPETITIVE PROGRAMMING</text>
+    <text x="0" y="62" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="58" font-weight="800">Md. Abu Sayem Rony</text>
+    <text x="2" y="108" fill="#cbd5e1" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="600">Junior DevOps Engineer @ Foodi</text>
+    <text x="2" y="150" fill="#e0f2fe" font-family="Consolas, 'Courier New', monospace" font-size="22">Kubernetes • AWS • CI/CD • Vault • ArgoCD • Grafana • ELK/EFK • Linux</text>
+  </g>
+
+  <g transform="translate(104 292)">
+    <rect x="0" y="0" width="150" height="42" rx="21" fill="#0ea5e9" opacity="0.22" stroke="#38bdf8"/>
+    <text x="75" y="27" fill="#e0f2fe" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">Kubernetes</text>
+    <rect x="166" y="0" width="98" height="42" rx="21" fill="#f59e0b" opacity="0.18" stroke="#fbbf24"/>
+    <text x="215" y="27" fill="#fef3c7" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">AWS</text>
+    <rect x="280" y="0" width="116" height="42" rx="21" fill="#8b5cf6" opacity="0.20" stroke="#a78bfa"/>
+    <text x="338" y="27" fill="#ede9fe" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">Vault</text>
+    <rect x="412" y="0" width="118" height="42" rx="21" fill="#ef4444" opacity="0.17" stroke="#fb7185"/>
+    <text x="471" y="27" fill="#ffe4e6" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">ArgoCD</text>
+    <rect x="546" y="0" width="128" height="42" rx="21" fill="#22c55e" opacity="0.17" stroke="#4ade80"/>
+    <text x="610" y="27" fill="#dcfce7" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">Grafana</text>
+    <rect x="690" y="0" width="118" height="42" rx="21" fill="#14b8a6" opacity="0.18" stroke="#2dd4bf"/>
+    <text x="749" y="27" fill="#ccfbf1" text-anchor="middle" font-family="Segoe UI, Arial" font-size="15" font-weight="700">ELK/EFK</text>
+  </g>
+
+  <g transform="translate(980 94)" opacity="0.9">
+    <circle cx="105" cy="105" r="84" fill="#0f172a" stroke="#38bdf8" stroke-width="2" opacity="0.9"/>
+    <circle cx="105" cy="105" r="48" fill="#111827" stroke="#a855f7" stroke-width="2"/>
+    <circle cx="105" cy="21" r="7" fill="#38bdf8"/>
+    <circle cx="189" cy="105" r="7" fill="#a855f7"/>
+    <circle cx="105" cy="189" r="7" fill="#22c55e"/>
+    <circle cx="21" cy="105" r="7" fill="#f59e0b"/>
+    <text x="105" y="99" fill="#ffffff" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" font-weight="800">DEV</text>
+    <text x="105" y="126" fill="#67e8f9" text-anchor="middle" font-family="Segoe UI, Arial" font-size="22" font-weight="800">OPS</text>
+  </g>
+</svg>
