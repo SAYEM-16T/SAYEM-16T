@@ -1,29 +1,39 @@
-<!-- ========================================================= -->
-<!--  GitHub Profile README | Md. Abu Sayem Rony              -->
-<!--  DevOps Engineer • Kubernetes • AWS • CI/CD • CP          -->
-<!-- ========================================================= -->
-
 <p align="center">
-  <img src="./assets/banner.svg" alt="Md. Abu Sayem Rony - DevOps Banner" width="100%" />
+  <img src="assets/hero-banner.svg" alt="Md. Abu Sayem Rony - DevOps Engineer Banner" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&duration=2600&pause=650&color=38BDF8&center=true&vCenter=true&width=1000&lines=Junior+DevOps+Engineer+%40+Foodi;Kubernetes+%7C+AWS+%7C+CI%2FCD+%7C+Linux+%7C+Docker;Vault+%7C+ArgoCD+%7C+Grafana+%7C+ELK%2FEFK;ICPC+Regionalist+%7C+Codeforces+Expert;I+build%2C+break%2C+debug%2C+secure%2C+and+improve+systems" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=800&size=24&pause=900&color=38BDF8&center=true&vCenter=true&width=1000&lines=Junior+DevOps+Engineer+%40+Foodi;Kubernetes+%7C+AWS+%7C+CI%2FCD+%7C+Linux+%7C+Docker;Vault+%7C+ArgoCD+%7C+Grafana+%7C+ELK%2FEFK;ICPC+Regionalist+%7C+Codeforces+Expert;Building+Reliable+Cloud-Native+Systems" alt="Typing SVG" />
 </p>
 
 <p align="center">
-  <a href="https://linkedin.com/in/sayem19rony"><img src="https://img.shields.io/badge/LinkedIn-Md.%20Abu%20Sayem%20Rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sayemiitju@gmail.com"><img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://codeforces.com/profile/sayem_19"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-  <a href="https://www.codechef.com/users/sayem_18"><img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/sayem19rony">
+    <img src="https://img.shields.io/badge/LinkedIn-Md.%20Abu%20Sayem%20Rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="mailto:sayemiitju@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
+  <a href="https://codeforces.com/profile/sayem_19">
+    <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+  </a>
+  <a href="https://www.codechef.com/users/sayem_18">
+    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://komarev.com/ghpvc/?username=SAYEM-16T&label=Profile%20Views&color=38bdf8&style=for-the-badge" />
+  <img src="https://img.shields.io/github/followers/SAYEM-16T?label=Followers&style=for-the-badge&color=7c3aed" />
+  <img src="https://img.shields.io/github/stars/SAYEM-16T?affiliations=OWNER%2CCOLLABORATOR&style=for-the-badge&color=22c55e" />
 </p>
 
 ---
 
 <p align="center">
-  <img src="./assets/terminal-card.svg" alt="Terminal Style Identity" width="100%" />
+  <img src="assets/terminal-card.svg" alt="Terminal intro" width="100%" />
 </p>
+
+---
 
 ## 🚀 About Me
 
@@ -31,63 +41,50 @@ I am a **Junior DevOps Engineer currently working at Foodi**, after starting my 
 
 My work focuses on **Kubernetes, AWS, CI/CD, Linux, Docker, monitoring, secrets management, observability, and production support**. I work with Kubernetes-based service deployment and management across multiple environments including **development, staging, UAT, sandbox, and production-related environments**.
 
-I am currently involved in:
+I am currently involved in **parallel CI/CD pipeline improvements**, **Vault-based secrets management for Kubernetes workloads**, **Grafana service graphs**, **ELK/EFK-based logging and observability**, deployment troubleshooting, and R&D tasks focused on reliability and operational efficiency.
 
-- Kubernetes-based service deployment, migration, and validation
-- AWS infrastructure and production-related DevOps operations
-- CI/CD workflow improvement and parallel pipeline execution
-- Vault-based secrets management for Kubernetes workloads
-- Grafana dashboards and service graph improvements
-- ELK/EFK-based logging, monitoring, and observability
-- Deployment troubleshooting, R&D tasks, and operational reliability improvement
+Before DevOps, I built a strong foundation in **competitive programming**. As an **ICPC Regionalist** and **Codeforces Expert**, I developed strong problem-solving ability, debugging mindset, pressure-handling capability, and structured thinking — skills that help me approach real-world DevOps and production engineering challenges more effectively.
 
-Before DevOps, I built a strong foundation in **competitive programming**. As an **ICPC Regionalist** and **Codeforces Expert**, I developed strong problem-solving ability, debugging mindset, pressure-handling capability, and structured thinking — skills that help me solve real-world DevOps and production engineering challenges more effectively.
+<p align="center">
+  <img src="assets/quote-card.svg" alt="Fun fact" width="85%" />
+</p>
 
 ---
 
-## 🧬 My Engineering DNA
-
-<table>
-  <tr>
-    <td width="50%" align="center">
-      <h3>⚙️ DevOps Engineer</h3>
-      <p>Kubernetes • AWS • CI/CD • Linux • Docker • Vault • ArgoCD • Grafana • ELK/EFK</p>
-    </td>
-    <td width="50%" align="center">
-      <h3>🏆 Competitive Programmer</h3>
-      <p>ICPC Regionalist • Codeforces Expert • Algorithms • Debugging • Problem Solving</p>
-    </td>
-  </tr>
-</table>
+<p align="center">
+  <img src="assets/engineering-dna.svg" alt="Engineering DNA" width="100%" />
+</p>
 
 ---
 
 ## 🎯 Current Mission
 
 ```yaml
-Current Role: Junior DevOps Engineer @ Foodi
+Current_Role: Junior DevOps Engineer @ Foodi
+Primary_Focus:
+  - Kubernetes-based service deployment and migration
+  - AWS infrastructure and production-related DevOps operations
+  - CI/CD workflow optimization and parallel pipeline execution
+  - Vault-based secrets management for Kubernetes workloads
+  - Grafana dashboards and service graph improvements
+  - ELK/EFK-based logging, monitoring, and observability
+  - Deployment troubleshooting and operational reliability
 
-Mission:
-  - Build reliable Kubernetes-based deployments
-  - Improve CI/CD speed with parallel pipeline execution
-  - Secure service secrets using HashiCorp Vault
-  - Improve visibility with Grafana service graphs
-  - Strengthen logging and observability using ELK / EFK
-  - Support production-related DevOps operations
-  - Solve real-world deployment and infrastructure problems
-
-Mindset:
+Engineering_Mindset:
   - Automate what repeats
   - Monitor what matters
   - Secure what is sensitive
   - Document what helps the team
   - Improve what slows delivery
+  - Troubleshoot from symptoms to root cause
 ```
 
 ---
 
+## 🛰️ DevOps Workflow
+
 <p align="center">
-  <img src="./assets/devops-workflow.svg" alt="DevOps Workflow" width="100%" />
+  <img src="assets/devops-workflow.svg" alt="DevOps workflow" width="100%" />
 </p>
 
 ---
@@ -121,15 +118,15 @@ Mindset:
   </tr>
   <tr>
     <td><b>Containers & Orchestration</b></td>
-    <td>Docker, Kubernetes, Helm, Kubernetes manifests</td>
+    <td>Docker, Kubernetes, Helm, Kubernetes manifests, service deployment</td>
   </tr>
   <tr>
     <td><b>CI/CD & GitOps</b></td>
-    <td>GitLab CI/CD, parallel pipelines, ArgoCD, release workflows</td>
+    <td>GitLab CI/CD, parallel pipelines, ArgoCD, release workflows, deployment verification</td>
   </tr>
   <tr>
     <td><b>Secrets Management</b></td>
-    <td>HashiCorp Vault, Kubernetes secrets workflow, secure secret delivery</td>
+    <td>HashiCorp Vault, auto-unseal, Kubernetes workload secret delivery</td>
   </tr>
   <tr>
     <td><b>Monitoring & Observability</b></td>
@@ -143,10 +140,27 @@ Mindset:
 
 ---
 
-## 🧪 Current Learning Roadmap
+## 🧩 Competitive Programming Identity
 
 <p align="center">
-  <img src="./assets/cert-roadmap.svg" alt="Certification Roadmap" width="100%" />
+  <img src="https://img.shields.io/badge/ICPC-Regionalist-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+  <img src="https://img.shields.io/badge/CodeChef-Competitive%20Programmer-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  <img src="https://img.shields.io/badge/Problem%20Solving-Strong-16A34A?style=for-the-badge" />
+</p>
+
+- ICPC Regionalist
+- Codeforces Expert
+- Experienced in onsite programming contests
+- Strong foundation in algorithms, data structures, debugging, and analytical thinking
+- Competitive programming background that strengthens real-world troubleshooting and production debugging
+
+---
+
+## 🧪 Certification Roadmap
+
+<p align="center">
+  <img src="assets/cert-roadmap.svg" alt="Certification roadmap" width="100%" />
 </p>
 
 <p align="center">
@@ -170,52 +184,44 @@ DevOps/
 │   ├── ingress
 │   ├── configmaps
 │   ├── secrets
+│   ├── gateway-connectivity
+│   ├── grpc-connectivity
 │   └── troubleshooting
 ├── ci-cd/
 │   ├── gitlab-pipelines
 │   ├── parallel-execution
 │   ├── release-workflows
-│   └── deployment-verification
+│   ├── deployment-verification
+│   └── rollback-readiness
 ├── observability/
 │   ├── grafana
 │   ├── prometheus
 │   ├── elk
 │   ├── efk
-│   └── service-graphs
+│   ├── service-graphs
+│   └── root-cause-analysis
 ├── security/
 │   ├── vault
 │   ├── auto-unseal
-│   └── secret-delivery
+│   ├── secret-delivery
+│   └── secure-configuration
 └── problem-solving/
     ├── codeforces
     ├── codechef
     ├── icpc
-    └── algorithms
+    ├── algorithms
+    └── debugging
 ```
 
 ---
 
-## 🧩 Competitive Programming
+## 🧱 Project Showcase Blueprint
 
 <p align="center">
-  <img src="https://img.shields.io/badge/ICPC-Regionalist-2563EB?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/CodeChef-Competitive%20Programmer-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problem%20Solving-Strong-16A34A?style=for-the-badge" />
+  <img src="assets/repo-showcase.svg" alt="Project showcase" width="100%" />
 </p>
 
-- ICPC Regionalist
-- Codeforces Expert
-- Experienced in onsite programming contests
-- Strong foundation in algorithms, data structures, debugging, and analytical thinking
-
----
-
-## ⚡ Fun Fact
-
-<p align="center">
-  <b>✨ try to use a system ⚫ never used by a system ✨</b>
-</p>
+> These are the types of repositories I am focusing on building and improving to reflect my DevOps and competitive programming journey.
 
 ---
 
@@ -273,25 +279,21 @@ DevOps/
 
 <p align="center">
   <a href="https://linkedin.com/in/sayem19rony">
-    <img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:sayemiitju@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+    <img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" />
   </a>
   <a href="https://codeforces.com/profile/sayem_19">
-    <img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+    <img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
   </a>
   <a href="https://www.codechef.com/users/sayem_18">
-    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
+    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
   </a>
 </p>
 
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=22&duration=2500&pause=800&color=A78BFA&center=true&vCenter=true&width=850&lines=Learning.+Building.+Solving.+Improving.;Kubernetes+Mindset.+Production+Thinking.;Competitive+Programming+Brain.+DevOps+Execution." alt="Footer Typing SVG" />
-</p>
-
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:0f172a&height=130&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:0f172a&height=120&section=footer" />
 </p>

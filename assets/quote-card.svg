@@ -1,0 +1,7 @@
+<svg width="1000" height="210" viewBox="0 0 1000 210" xmlns="http://www.w3.org/2000/svg">
+  <defs><linearGradient id="bg" x1="0" x2="1000" y1="0" y2="210"><stop stop-color="#0f172a"/><stop offset="1" stop-color="#111827"/></linearGradient></defs>
+  <rect width="1000" height="210" rx="28" fill="url(#bg)" stroke="#334155"/>
+  <text x="500" y="82" font-family="Segoe UI,Arial" font-size="30" font-weight="900" text-anchor="middle" fill="#fff">✨ try to use a system ⚫ never used by a system ✨</text>
+  <text x="500" y="130" font-family="Segoe UI,Arial" font-size="18" text-anchor="middle" fill="#94a3b8">Think differently. Build carefully. Improve continuously.</text>
+  <text x="500" y="164" font-family="Segoe UI,Arial" font-size="16" text-anchor="middle" fill="#38bdf8">DevOps • Competitive Programming • Cloud-Native Engineering</text>
+</svg>
