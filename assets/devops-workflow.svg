@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <svg width="1280" height="520" viewBox="0 0 1280 520" xmlns="http://www.w3.org/2000/svg">
 <defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#172554"/></linearGradient><linearGradient id="card" x1="0" x2="1"><stop stop-color="#0F172A"/><stop offset="1" stop-color="#111827"/></linearGradient><marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#38BDF8"/></marker></defs>
 <rect width="1280" height="520" rx="30" fill="url(#bg)"/>
@@ -20,30 +19,3 @@
 </g>
 <g stroke="#64748B" stroke-width="2" stroke-dasharray="8 8"><path d="M925 248 C830 315, 670 310, 640 345"/><path d="M925 248 C780 330, 455 300, 365 345"/><path d="M925 248 C935 320, 925 320, 910 345"/></g>
 </svg>
-=======
-<svg width="1300" height="520" viewBox="0 0 1300 520" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="0" x2="1300" y1="0" y2="520"><stop stop-color="#020617"/><stop offset="1" stop-color="#0f172a"/></linearGradient>
-    <linearGradient id="box" x1="0" x2="1"><stop stop-color="#0ea5e9" stop-opacity="0.22"/><stop offset="1" stop-color="#8b5cf6" stop-opacity="0.22"/></linearGradient>
-    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M2,2 L10,6 L2,10" fill="#38bdf8"/></marker>
-  </defs>
-  <rect width="1300" height="520" rx="30" fill="url(#bg)" stroke="#334155"/>
-  <text x="650" y="60" text-anchor="middle" font-family="Segoe UI, Arial" font-size="34" font-weight="900" fill="#ffffff">Cloud-Native DevOps Workflow</text>
-  <text x="650" y="96" text-anchor="middle" font-family="Segoe UI, Arial" font-size="18" fill="#94a3b8">Code → Pipeline → GitOps → Kubernetes → Secrets → Observability → Reliability</text>
-  <g font-family="Segoe UI, Arial" font-weight="800" font-size="18" fill="#ffffff">
-    <rect x="70" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="145" y="216" text-anchor="middle">Developer</text><text x="145" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">Push / Merge</text>
-    <rect x="270" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="345" y="216" text-anchor="middle">GitLab CI</text><text x="345" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">Parallel Pipeline</text>
-    <rect x="470" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="545" y="216" text-anchor="middle">Docker</text><text x="545" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">Build Image</text>
-    <rect x="670" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="745" y="216" text-anchor="middle">ArgoCD</text><text x="745" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">GitOps Sync</text>
-    <rect x="870" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="945" y="216" text-anchor="middle">Kubernetes</text><text x="945" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">Deploy Services</text>
-    <rect x="1070" y="180" width="150" height="84" rx="18" fill="url(#box)" stroke="#38bdf8"/><text x="1145" y="216" text-anchor="middle">Vault</text><text x="1145" y="242" text-anchor="middle" font-size="14" fill="#cbd5e1">Secrets Flow</text>
-    <path d="M220 222H270" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/><path d="M420 222H470" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/><path d="M620 222H670" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/><path d="M820 222H870" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/><path d="M1020 222H1070" stroke="#38bdf8" stroke-width="3" marker-end="url(#arrow)"/>
-    <rect x="250" y="350" width="210" height="84" rx="18" fill="#0b1220" stroke="#a78bfa"/><text x="355" y="386" text-anchor="middle">Grafana</text><text x="355" y="412" text-anchor="middle" font-size="14" fill="#cbd5e1">Service Graphs</text>
-    <rect x="545" y="350" width="210" height="84" rx="18" fill="#0b1220" stroke="#a78bfa"/><text x="650" y="386" text-anchor="middle">Prometheus</text><text x="650" y="412" text-anchor="middle" font-size="14" fill="#cbd5e1">Metrics</text>
-    <rect x="840" y="350" width="210" height="84" rx="18" fill="#0b1220" stroke="#a78bfa"/><text x="945" y="386" text-anchor="middle">ELK / EFK</text><text x="945" y="412" text-anchor="middle" font-size="14" fill="#cbd5e1">Logs & Search</text>
-    <path d="M945 264C945 310 945 310 945 350" stroke="#a78bfa" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M945 302C760 300 650 318 650 350" stroke="#a78bfa" stroke-width="3" marker-end="url(#arrow)"/>
-    <path d="M945 302C600 300 355 318 355 350" stroke="#a78bfa" stroke-width="3" marker-end="url(#arrow)"/>
-  </g>
-</svg>
->>>>>>> 85a078214df70d4653e25f95a128abaef0f1cca1
