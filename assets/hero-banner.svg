@@ -1,54 +1,41 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="1400" height="360" viewBox="0 0 1400 360" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.38" stop-color="#0F172A"/>
-      <stop offset="0.72" stop-color="#111827"/>
-      <stop offset="1" stop-color="#172554"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1400" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#020617"/>
+      <stop offset="0.45" stop-color="#0f172a"/>
+      <stop offset="1" stop-color="#1e1b4b"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38BDF8"/>
-      <stop offset="0.45" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#22C55E"/>
+    <linearGradient id="accent" x1="0" y1="0" x2="1400" y2="0" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22c55e"/>
     </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.6" opacity="0.35"/>
+    <filter id="glow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" stroke="#334155" stroke-opacity="0.27" stroke-width="1"/>
     </pattern>
   </defs>
-  <rect width="1280" height="420" rx="34" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="34" fill="url(#grid)"/>
-  <circle cx="1110" cy="60" r="170" fill="#2563EB" opacity="0.18" filter="url(#glow)"/>
-  <circle cx="165" cy="342" r="210" fill="#7C3AED" opacity="0.16" filter="url(#glow)"/>
-  <path d="M70 310 C240 185, 325 370, 505 242 S735 124, 910 232 S1125 315, 1214 174" stroke="url(#accent)" stroke-width="3" opacity="0.72"/>
-  <path d="M70 330 C250 210, 335 393, 515 263 S725 157, 900 255 S1115 340, 1214 203" stroke="#38BDF8" stroke-width="1" opacity="0.28"/>
-  <g opacity="0.75">
-    <circle cx="180" cy="95" r="4" fill="#38BDF8"/><circle cx="220" cy="95" r="4" fill="#8B5CF6"/><circle cx="260" cy="95" r="4" fill="#22C55E"/>
-    <line x1="184" y1="95" x2="216" y2="95" stroke="#64748B"/><line x1="224" y1="95" x2="256" y2="95" stroke="#64748B"/>
+  <rect width="1400" height="360" rx="28" fill="url(#bg)"/>
+  <rect width="1400" height="360" rx="28" fill="url(#grid)" opacity="0.55">
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="44 44" dur="18s" repeatCount="indefinite"/>
+  </rect>
+  <g opacity="0.45" filter="url(#glow)">
+    <circle cx="170" cy="95" r="85" fill="#0ea5e9"><animate attributeName="r" values="70;95;70" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="1190" cy="250" r="95" fill="#7c3aed"><animate attributeName="r" values="80;115;80" dur="6s" repeatCount="indefinite"/></circle>
+    <circle cx="700" cy="340" r="95" fill="#22c55e" opacity="0.45"><animate attributeName="r" values="65;100;65" dur="7s" repeatCount="indefinite"/></circle>
   </g>
-  <text x="70" y="95" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700" letter-spacing="2.5">CLOUD-NATIVE DEVOPS • KUBERNETES • AWS • CI/CD</text>
-  <text x="70" y="170" fill="white" font-family="Inter,Segoe UI,Arial" font-size="58" font-weight="900">Md. Abu Sayem Rony</text>
-  <text x="72" y="218" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="700">Junior DevOps Engineer @ Foodi</text>
-  <text x="72" y="255" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="600">Kubernetes • AWS • Linux • Docker • GitLab CI/CD • ArgoCD • Vault • Grafana • ELK/EFK</text>
-  <g transform="translate(70 292)">
-    <rect x="0" y="0" width="140" height="38" rx="19" fill="#0EA5E9" opacity="0.95"/><text x="70" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Kubernetes</text>
-    <rect x="154" y="0" width="92" height="38" rx="19" fill="#F59E0B" opacity="0.95"/><text x="200" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">AWS</text>
-    <rect x="260" y="0" width="102" height="38" rx="19" fill="#22C55E" opacity="0.95"/><text x="311" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">CI/CD</text>
-    <rect x="376" y="0" width="102" height="38" rx="19" fill="#8B5CF6" opacity="0.95"/><text x="427" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Vault</text>
-    <rect x="492" y="0" width="110" height="38" rx="19" fill="#EF4444" opacity="0.95"/><text x="547" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Grafana</text>
-  </g>
-  <g transform="translate(885 112)" filter="url(#glow)">
-    <rect x="0" y="0" width="300" height="188" rx="24" fill="#020617" opacity="0.82" stroke="#38BDF8" stroke-width="1.4"/>
-    <text x="26" y="42" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="16" font-weight="700">$ kubectl get identity</text>
-    <text x="26" y="76" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">role: DevOps Engineer</text>
-    <text x="26" y="105" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">mode: build • ship • observe</text>
-    <text x="26" y="134" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">cp: ICPC + CF Expert</text>
-    <text x="26" y="163" fill="#22C55E" font-family="Fira Code,Consolas,monospace" font-size="14">status: learning fast 🚀</text>
+  <rect x="60" y="52" width="1280" height="256" rx="24" fill="#020617" fill-opacity="0.62" stroke="url(#accent)" stroke-width="2"/>
+  <path d="M100 92H1300" stroke="url(#accent)" stroke-width="3" stroke-linecap="round" opacity="0.85">
+    <animate attributeName="stroke-dasharray" values="0 1200;450 750;1200 0" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <text x="700" y="146" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="52" font-weight="800" fill="#ffffff">Md. Abu Sayem Rony</text>
+  <text x="700" y="193" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="25" font-weight="700" fill="#38bdf8">Junior DevOps Engineer @ Foodi</text>
+  <text x="700" y="232" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700" fill="#c4b5fd">Kubernetes • AWS • CI/CD • Vault • Grafana • ELK/EFK • Competitive Programming</text>
+  <text x="700" y="270" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="18" fill="#86efac">Deploy reliably. Observe deeply. Secure secrets. Solve under pressure.</text>
+  <g transform="translate(108 250)">
+    <rect width="1184" height="28" rx="14" fill="#0f172a" stroke="#334155"/>
+    <rect width="260" height="28" rx="14" fill="url(#accent)" opacity="0.85">
+      <animate attributeName="x" values="0;924;0" dur="8s" repeatCount="indefinite"/>
+    </rect>
   </g>
 </svg>

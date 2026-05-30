@@ -1,1 +1,9 @@
-<svg width="1280" height="160" viewBox="0 0 1280 160" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#7C3AED"/><stop offset="0.5" stop-color="#2563EB"/><stop offset="1" stop-color="#020617"/></linearGradient></defs><rect width="1280" height="160" rx="28" fill="#020617"/><path d="M0 88 C180 10 290 130 470 70 C650 10 760 122 950 66 C1080 28 1180 55 1280 20 V160 H0 Z" fill="url(#g)" opacity="0.95"/><text x="640" y="112" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="900">Learning • Building • Shipping • Solving • Improving 🚀</text></svg>
+<svg width="1400" height="180" viewBox="0 0 1400 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1400" y2="0"><stop stop-color="#38bdf8"/><stop offset="0.5" stop-color="#8b5cf6"/><stop offset="1" stop-color="#22c55e"/></linearGradient></defs>
+<rect width="1400" height="180" rx="28" fill="#020617"/>
+<path d="M0 110 C180 40 260 170 430 100 C610 25 750 175 930 95 C1120 15 1230 155 1400 80 V180 H0 Z" fill="url(#g)" opacity="0.35">
+  <animate attributeName="d" dur="7s" repeatCount="indefinite" values="M0 110 C180 40 260 170 430 100 C610 25 750 175 930 95 C1120 15 1230 155 1400 80 V180 H0 Z;M0 80 C180 150 260 35 430 120 C610 190 750 40 930 110 C1120 175 1230 35 1400 120 V180 H0 Z;M0 110 C180 40 260 170 430 100 C610 25 750 175 930 95 C1120 15 1230 155 1400 80 V180 H0 Z"/>
+</path>
+<text x="700" y="72" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" fill="#f8fafc">Learning • Building • Solving • Improving</text>
+<text x="700" y="112" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="18" fill="#c4b5fd">Cloud-native depth with competitive programming discipline</text>
+</svg>
