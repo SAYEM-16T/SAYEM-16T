@@ -1,10 +1,201 @@
-<svg width="1280" height="430" viewBox="0 0 1280 430" xmlns="http://www.w3.org/2000/svg">
-<rect width="1280" height="430" rx="30" fill="#020617"/><text x="640" y="56" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">Project Showcase Blueprint</text><text x="640" y="88" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="600">pin repositories that prove DevOps skill + problem-solving depth</text>
-<g font-family="Inter,Segoe UI,Arial">
-  <g transform="translate(70 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#38BDF8"/><text x="24" y="38" fill="#38BDF8" font-size="18" font-weight="900">k8s-deployment-lab</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Kubernetes manifests, ingress, services, configs</text></g>
-  <g transform="translate(465 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#22C55E"/><text x="24" y="38" fill="#22C55E" font-size="18" font-weight="900">ci-cd-pipeline-lab</text><text x="24" y="70" fill="#CBD5E1" font-size="14">GitLab CI/CD, parallel pipeline, release flow</text></g>
-  <g transform="translate(860 135)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#8B5CF6"/><text x="24" y="38" fill="#A78BFA" font-size="18" font-weight="900">vault-k8s-secrets</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Vault, auto-unseal, Kubernetes secret delivery</text></g>
-  <g transform="translate(70 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#F97316"/><text x="24" y="38" fill="#FDBA74" font-size="18" font-weight="900">grafana-observability</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Prometheus, dashboards, service graph notes</text></g>
-  <g transform="translate(465 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#EF4444"/><text x="24" y="38" fill="#FCA5A5" font-size="18" font-weight="900">elk-efk-logging</text><text x="24" y="70" fill="#CBD5E1" font-size="14">Elastic tuning, Fluent Bit, Kibana, logs</text></g>
-  <g transform="translate(860 275)"><rect width="350" height="110" rx="20" fill="#0F172A" stroke="#60A5FA"/><text x="24" y="38" fill="#93C5FD" font-size="18" font-weight="900">cp-template</text><text x="24" y="70" fill="#CBD5E1" font-size="14">C++ templates, algorithms, debugging utilities</text></g>
-</g></svg>
+<svg width="1280" height="560" viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Portfolio Project Blueprint">
+
+  <defs>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="45%" stop-color="#07111F"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Outer border -->
+    <linearGradient id="frame" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0.25"/>
+    </linearGradient>
+
+    <!-- Card background -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+
+    <!-- Header line -->
+    <linearGradient id="headline" x1="420" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#94A3B8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#94A3B8" stroke-width="0.6" opacity="0.075"/>
+    </pattern>
+
+    <!-- Glow -->
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="44"/>
+    </filter>
+
+    <!-- Card shadow -->
+    <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.40"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1280" height="560" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="560" rx="30" fill="url(#grid)" opacity="0.55"/>
+  <rect x="1.5" y="1.5" width="1277" height="557" rx="28.5" fill="none" stroke="url(#frame)" stroke-width="1.5"/>
+
+  <!-- Ambient glows -->
+  <circle cx="145" cy="95" r="120" fill="#38BDF8" opacity="0.10" filter="url(#blurGlow)"/>
+  <circle cx="1125" cy="115" r="140" fill="#8B5CF6" opacity="0.12" filter="url(#blurGlow)"/>
+  <circle cx="640" cy="560" r="230" fill="#22C55E" opacity="0.055" filter="url(#blurGlow)"/>
+
+  <!-- Header -->
+  <text x="640" y="56" text-anchor="middle" fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="34" font-weight="900">
+    Portfolio Project Blueprint
+  </text>
+
+  <text x="640" y="88" text-anchor="middle" fill="#94A3B8"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16" font-weight="600">
+    Repositories that prove DevOps execution, cloud-native thinking, and problem-solving depth
+  </text>
+
+  <line x1="430" y1="112" x2="850" y2="112" stroke="url(#headline)" stroke-width="2"/>
+
+  <!-- Cards -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+
+    <!-- Kubernetes -->
+    <g transform="translate(70 145)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#38BDF8"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#38BDF8"/>
+
+      <text x="24" y="38" fill="#38BDF8" font-size="18" font-weight="900">k8s-deployment-lab</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Kubernetes deployment practice</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        Manifests • Services • Ingress
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Configs • Secrets • Troubleshooting
+      </text>
+
+      <rect x="238" y="22" width="84" height="24" rx="12" fill="#082F49" stroke="#0EA5E9"/>
+      <text x="280" y="38" text-anchor="middle" fill="#BAE6FD" font-size="11" font-weight="800">K8S LAB</text>
+    </g>
+
+    <!-- CI/CD -->
+    <g transform="translate(465 145)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#22C55E"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#22C55E"/>
+
+      <text x="24" y="38" fill="#22C55E" font-size="18" font-weight="900">ci-cd-pipeline-lab</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Reliable delivery workflow</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        GitLab CI/CD • Parallel pipelines
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Release flow • Deployment verification
+      </text>
+
+      <rect x="228" y="22" width="94" height="24" rx="12" fill="#052E16" stroke="#22C55E"/>
+      <text x="275" y="38" text-anchor="middle" fill="#BBF7D0" font-size="11" font-weight="800">AUTOMATION</text>
+    </g>
+
+    <!-- Vault -->
+    <g transform="translate(860 145)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#8B5CF6"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#8B5CF6"/>
+
+      <text x="24" y="38" fill="#C4B5FD" font-size="18" font-weight="900">vault-k8s-secrets</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Secure secrets for Kubernetes</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        HashiCorp Vault • Auto-unseal
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Secret delivery • Secure config flow
+      </text>
+
+      <rect x="238" y="22" width="84" height="24" rx="12" fill="#2E1065" stroke="#8B5CF6"/>
+      <text x="280" y="38" text-anchor="middle" fill="#DDD6FE" font-size="11" font-weight="800">SECURITY</text>
+    </g>
+
+    <!-- Grafana -->
+    <g transform="translate(70 330)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#F97316"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#F97316"/>
+
+      <text x="24" y="38" fill="#FDBA74" font-size="18" font-weight="900">grafana-observability</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Monitoring and service visibility</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        Prometheus • Grafana dashboards
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Service graphs • Metrics notes
+      </text>
+
+      <rect x="212" y="22" width="110" height="24" rx="12" fill="#431407" stroke="#F97316"/>
+      <text x="267" y="38" text-anchor="middle" fill="#FED7AA" font-size="11" font-weight="800">OBSERVABILITY</text>
+    </g>
+
+    <!-- ELK -->
+    <g transform="translate(465 330)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#EF4444"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#EF4444"/>
+
+      <text x="24" y="38" fill="#FCA5A5" font-size="18" font-weight="900">elk-logging-lab</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Centralized logging workflow</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        Elasticsearch • Logstash / Fluent Bit
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Kibana • Search • Tuning notes
+      </text>
+
+      <rect x="250" y="22" width="72" height="24" rx="12" fill="#450A0A" stroke="#EF4444"/>
+      <text x="286" y="38" text-anchor="middle" fill="#FECACA" font-size="11" font-weight="800">LOGGING</text>
+    </g>
+
+    <!-- CP -->
+    <g transform="translate(860 330)" filter="url(#cardShadow)">
+      <rect width="350" height="135" rx="22" fill="url(#cardBg)" stroke="#60A5FA"/>
+      <rect x="0" y="0" width="350" height="6" rx="3" fill="#60A5FA"/>
+
+      <text x="24" y="38" fill="#93C5FD" font-size="18" font-weight="900">cp-template</text>
+      <text x="24" y="65" fill="#E2E8F0" font-size="14" font-weight="700">Reusable problem-solving setup</text>
+
+      <text x="24" y="92" fill="#94A3B8" font-size="13" font-weight="600">
+        C++ templates • Algorithms • DS
+      </text>
+      <text x="24" y="115" fill="#94A3B8" font-size="13" font-weight="600">
+        Debug utilities • CP workflow
+      </text>
+
+      <rect x="242" y="22" width="80" height="24" rx="12" fill="#172554" stroke="#60A5FA"/>
+      <text x="282" y="38" text-anchor="middle" fill="#BFDBFE" font-size="11" font-weight="800">CP CORE</text>
+    </g>
+
+  </g>
+
+  <!-- Footer -->
+  <g>
+    <rect x="230" y="498" width="820" height="40" rx="20" fill="#0B1220" fill-opacity="0.97" stroke="#1E293B"/>
+    <text x="640" y="523" text-anchor="middle" fill="#CBD5E1"
+          font-family="Inter, Segoe UI, Arial, sans-serif"
+          font-size="13" font-weight="700">
+      Build repositories that demonstrate real implementation, reliability, and engineering discipline
+    </text>
+  </g>
+
+</svg>

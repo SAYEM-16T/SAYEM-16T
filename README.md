@@ -213,38 +213,104 @@ engineering_mindset:
 
 
 
+
+
+
+
 ---
+
+
+
 
 ## 🧩 Competitive Programming
 
 <p align="center">
   <img src="https://img.shields.io/badge/ICPC-Regionalist-2563EB?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Problems%20Solved-3500%2B-16A34A?style=for-the-badge" />
   <img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
-  <img src="https://img.shields.io/badge/CodeChef-Competitive%20Programmer-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
-  <img src="https://img.shields.io/badge/Problem%20Solving-Strong-16A34A?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/CodeChef-4%E2%AD%90%20%7C%20Div%202-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  <img src="https://img.shields.io/badge/AtCoder-6%20Kyu-22C55E?style=for-the-badge" />
 </p>
 
-- ICPC Regionalist
-- Codeforces Expert
-- Experienced in onsite programming contests
-- Strong foundation in algorithms, data structures, debugging, and analytical thinking
+I have solved **3500+ competitive programming problems** across different online judges and have participated in multiple onsite programming contests, including **ICPC regional-level contests**.
 
----
+My competitive programming journey has helped me build a strong foundation in **algorithms, data structures, debugging, analytical thinking, pressure handling, and consistent problem-solving** — skills that also support my work in DevOps, troubleshooting, and production engineering.
+
+<table>
+  <tr>
+    <td width="28%"><b>🏆 ICPC</b></td>
+    <td><b>Regionalist</b> with onsite programming contest experience.</td>
+  </tr>
+  <tr>
+    <td width="28%"><b>🔷 Codeforces</b></td>
+    <td><b>Expert</b> competitive programmer.</td>
+  </tr>
+  <tr>
+    <td width="28%"><b>👨‍🍳 CodeChef</b></td>
+    <td><b>4★ Competitive Programmer</b> in <b>Div 2</b>.</td>
+  </tr>
+  <tr>
+    <td width="28%"><b>🟢 AtCoder</b></td>
+    <td><b>6 Kyu</b> competitive programmer.</td>
+  </tr>
+  <tr>
+    <td width="28%"><b>🧠 Problem Solving</b></td>
+    <td>Solved <b>3500+ problems</b> across online judges.</td>
+  </tr>
+</table>
+
+
 
 <p align="center">
-  <img src="assets/repo-showcase.svg" alt="Repository Showcase Blueprint" width="100%" />
+  <a href="https://codeforces.com/profile/sayem_19">
+    <img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" />
+  </a>
+  <a href="https://www.codechef.com/users/sayem_18">
+    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" />
+  </a>
+  <a href="https://atcoder.jp/users/SAYEM_16">
+    <img src="https://img.shields.io/badge/AtCoder-SAYEM__16-22C55E?style=for-the-badge" />
+  </a>
 </p>
 
-## 📌 Suggested Repositories To Pin
 
-| Repository Idea | What it should show |
+
+
+## 📌 Portfolio Project Blueprint
+
+<p align="center">
+  <img src="./assets/repo-showcase.svg" alt="DevOps and Competitive Programming Repository Showcase Blueprint" width="100%" />
+</p>
+
+| Repository Idea | What It Should Demonstrate |
 |---|---|
-| `k8s-deployment-lab` | Kubernetes manifests, services, ingress, configs, troubleshooting notes |
-| `ci-cd-pipeline-lab` | GitLab CI/CD, parallel pipeline design, deployment workflow |
-| `vault-k8s-secrets` | Vault + Kubernetes secret management flow |
-| `grafana-observability` | Prometheus metrics, Grafana dashboard notes, service graph docs |
-| `elk-efk-logging` | Elastic/Fluent Bit/Kibana setup notes and tuning ideas |
-| `competitive-programming-template` | C++ templates, algorithms, debugging utilities |
+| `k8s-deployment-lab` | Kubernetes manifests, Services, Ingress, ConfigMaps, Secrets, troubleshooting notes |
+| `ci-cd-pipeline-lab` | GitLab CI/CD, parallel pipeline design, release workflow, deployment verification |
+| `vault-k8s-secrets` | HashiCorp Vault, Kubernetes secrets delivery, auto-unseal notes, secure configuration flow |
+| `grafana-observability` | Prometheus metrics, Grafana dashboards, service graphs, monitoring notes |
+| `elk-logging-lab` | Elasticsearch, Logstash/Fluent Bit, Kibana, log collection, search, and tuning notes |
+| `competitive-programming-template` | C++ templates, algorithms, data structures, debugging utilities, CP setup |
+
+
+
+## 📌 Portfolio Project Blueprint
+
+<p align="center">
+  <img src="./assets/repo-showcase.svg" alt="DevOps and Competitive Programming Repository Showcase Blueprint" width="100%" />
+</p>
+
+| Repository Idea | What It Should Demonstrate |
+|---|---|
+| `k8s-deployment-lab` | Kubernetes manifests, Services, Ingress, ConfigMaps, Secrets, troubleshooting notes |
+| `ci-cd-pipeline-lab` | GitLab CI/CD, parallel pipeline design, release workflow, deployment verification |
+| `vault-k8s-secrets` | HashiCorp Vault, Kubernetes secrets delivery, auto-unseal notes, secure configuration flow |
+| `grafana-observability` | Prometheus metrics, Grafana dashboards, service graphs, monitoring notes |
+| `elk-logging-lab` | Elasticsearch, Logstash/Fluent Bit, Kibana, log collection, search, and tuning notes |
+| `competitive-programming-template` | C++ templates, algorithms, data structures, debugging utilities, CP setup |
+
+
+
+
 
 ---
 
