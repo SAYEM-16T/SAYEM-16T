@@ -242,6 +242,59 @@ engineering_mindset:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 🛠️ What I Work With
+
+| Area                                | Tools & Technologies                                                 | Focus                                                                                             |
+| ----------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
+| ☁️ **Cloud & Infrastructure**       | AWS, Linux Servers, Proxmox, VMware ESXi, Nginx                      | Infrastructure operations, server management, and environment support                             |
+| ☸️ **Containers & Orchestration**   | Docker, Kubernetes, Helm, Kubernetes Manifests, Ingress              | Service deployment, migration, Kubernetes configuration, and workload management                  |
+| 🚀 **CI/CD & GitOps**               | GitLab CI/CD, Parallel Pipelines, ArgoCD, GitOps, Release Workflows  | Faster delivery, deployment verification, automation, and release reliability                     |
+| 🔐 **Secrets Management**           | HashiCorp Vault, Vault Cluster, Auto-Unseal, K8s Secrets Delivery    | Secure secret delivery, configuration management, and workload security                           |
+| 📊 **Monitoring & Observability**   | Grafana, Prometheus, ELK, EFK, Logs, Metrics, Service Graphs         | System visibility, dashboards, logging, and troubleshooting support                               |
+| 🧩 **Troubleshooting & Operations** | Log Analysis, RCA, Gateway, API, gRPC, Developer Collaboration       | Root cause analysis, connectivity checks, deployment troubleshooting, and operational reliability |
+| 🏆 **Problem Solving**              | C++, Data Structures, Algorithms, Debugging, Competitive Programming | Structured thinking, pressure handling, debugging mindset, and analytical problem solving         |
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ---
 
 ## 🧪 Current Learning Roadmap
