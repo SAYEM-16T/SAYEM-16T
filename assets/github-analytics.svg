@@ -1,48 +1,178 @@
-<svg width="1280" height="440" viewBox="0 0 1280 440" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub analytics overview">
+<svg width="1280" height="500" viewBox="0 0 1280 500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="GitHub engineering activity overview">
+
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
-    <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#38BDF8"/><stop offset="0.55" stop-color="#8B5CF6"/><stop offset="1" stop-color="#22C55E"/></linearGradient>
-    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".35"/></filter>
-    <style>
-      .bar { animation: grow 2.8s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: bottom; }
-      .bar2 { animation-delay:.3s } .bar3 { animation-delay:.6s } .bar4 { animation-delay:.9s }
-      .pulse { animation: pulse 3s ease-in-out infinite; }
-      @keyframes grow { from{ transform:scaleY(.55); opacity:.72 } to{ transform:scaleY(1); opacity:1 } }
-      @keyframes pulse { 0%,100%{opacity:.55} 50%{opacity:1} }
-    </style>
+    <!-- Background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#020617"/>
+      <stop offset="48%" stop-color="#0B1220"/>
+      <stop offset="100%" stop-color="#111827"/>
+    </linearGradient>
+
+    <!-- Outer frame -->
+    <linearGradient id="frame" x1="0" y1="0" x2="1280" y2="500" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#22C55E" stop-opacity="0.24"/>
+    </linearGradient>
+
+    <!-- Divider -->
+    <linearGradient id="divider" x1="420" y1="0" x2="860" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#94A3B8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Card background -->
+    <linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="130" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+
+    <!-- Panel background -->
+    <linearGradient id="panelBg" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="100%" stop-color="#0B1220"/>
+    </linearGradient>
+
+    <!-- Grid -->
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0 L0 0 0 44" fill="none" stroke="#94A3B8" stroke-width="0.6" opacity="0.07"/>
+    </pattern>
+
+    <!-- Ambient glow -->
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="44"/>
+    </filter>
+
+    <!-- Card shadow -->
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#000000" flood-opacity="0.38"/>
+    </filter>
+
+    <!-- Smooth text shadow -->
+    <filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="1.2" stdDeviation="1.4" flood-color="#020617" flood-opacity="0.82"/>
+    </filter>
   </defs>
-  <rect width="1280" height="440" rx="30" fill="url(#bg)"/>
-  <text x="640" y="58" text-anchor="middle" fill="#fff" font-family="Inter,Segoe UI,Arial" font-size="32" font-weight="900">GitHub Engineering Activity</text>
-  <text x="640" y="88" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700">code • infrastructure notes • learning labs • competitive programming</text>
 
-  <g filter="url(#shadow)">
-    <rect x="90" y="125" width="245" height="110" rx="24" fill="#0B1220" stroke="#334155"/>
-    <text x="212" y="168" text-anchor="middle" fill="#38BDF8" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">38+</text>
-    <text x="212" y="202" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700">Repositories</text>
+  <!-- Background -->
+  <rect width="1280" height="500" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="500" rx="30" fill="url(#grid)" opacity="0.52"/>
+  <rect x="1.5" y="1.5" width="1277" height="497" rx="28.5" fill="none" stroke="url(#frame)" stroke-width="1.5"/>
 
-    <rect x="380" y="125" width="245" height="110" rx="24" fill="#0B1220" stroke="#334155"/>
-    <text x="502" y="168" text-anchor="middle" fill="#A78BFA" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">DevOps</text>
-    <text x="502" y="202" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700">Profile Direction</text>
+  <!-- Ambient glows -->
+  <circle cx="145" cy="90" r="120" fill="#38BDF8" opacity="0.10" filter="url(#blurGlow)"/>
+  <circle cx="1125" cy="110" r="140" fill="#8B5CF6" opacity="0.12" filter="url(#blurGlow)"/>
+  <circle cx="640" cy="500" r="230" fill="#22C55E" opacity="0.05" filter="url(#blurGlow)"/>
 
-    <rect x="670" y="125" width="245" height="110" rx="24" fill="#0B1220" stroke="#334155"/>
-    <text x="792" y="168" text-anchor="middle" fill="#22C55E" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">CP</text>
-    <text x="792" y="202" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700">Problem Solving Core</text>
+  <!-- Header -->
+  <text x="640" y="56" text-anchor="middle" fill="#F8FAFC"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="34" font-weight="900"
+        filter="url(#textShadow)">
+    GitHub Engineering Activity
+  </text>
 
-    <rect x="960" y="125" width="230" height="110" rx="24" fill="#0B1220" stroke="#334155"/>
-    <text x="1075" y="168" text-anchor="middle" fill="#F59E0B" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">Ship</text>
-    <text x="1075" y="202" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700">Build • Learn • Improve</text>
+  <text x="640" y="88" text-anchor="middle" fill="#CBD5E1"
+        font-family="Inter, Segoe UI, Arial, sans-serif"
+        font-size="16" font-weight="700"
+        filter="url(#textShadow)">
+    DevOps engineering • Cloud-native learning • Infrastructure labs • Competitive programming
+  </text>
+
+  <line x1="420" y1="112" x2="860" y2="112" stroke="url(#divider)" stroke-width="2"/>
+
+  <!-- Top Cards -->
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#shadow)">
+
+    <!-- Card 1 -->
+    <g transform="translate(75 145)">
+      <rect width="255" height="125" rx="24" fill="url(#cardBg)" stroke="#38BDF8"/>
+      <rect x="0" y="0" width="255" height="6" rx="3" fill="#38BDF8"/>
+      <text x="127.5" y="50" text-anchor="middle" fill="#38BDF8" font-size="31" font-weight="900" filter="url(#textShadow)">Projects</text>
+      <text x="127.5" y="80" text-anchor="middle" fill="#F8FAFC" font-size="16" font-weight="800" filter="url(#textShadow)">Repository Direction</text>
+      <text x="127.5" y="104" text-anchor="middle" fill="#CBD5E1" font-size="12" font-weight="700" filter="url(#textShadow)">labs • templates • notes</text>
+    </g>
+
+    <!-- Card 2 -->
+    <g transform="translate(365 145)">
+      <rect width="255" height="125" rx="24" fill="url(#cardBg)" stroke="#8B5CF6"/>
+      <rect x="0" y="0" width="255" height="6" rx="3" fill="#8B5CF6"/>
+      <text x="127.5" y="50" text-anchor="middle" fill="#C4B5FD" font-size="31" font-weight="900" filter="url(#textShadow)">DevOps</text>
+      <text x="127.5" y="80" text-anchor="middle" fill="#F8FAFC" font-size="16" font-weight="800" filter="url(#textShadow)">Core Direction</text>
+      <text x="127.5" y="104" text-anchor="middle" fill="#CBD5E1" font-size="12" font-weight="700" filter="url(#textShadow)">K8s • AWS • CI/CD • Vault</text>
+    </g>
+
+    <!-- Card 3 -->
+    <g transform="translate(655 145)">
+      <rect width="255" height="125" rx="24" fill="url(#cardBg)" stroke="#F97316"/>
+      <rect x="0" y="0" width="255" height="6" rx="3" fill="#F97316"/>
+      <text x="127.5" y="50" text-anchor="middle" fill="#FDBA74" font-size="29" font-weight="900" filter="url(#textShadow)">Observability</text>
+      <text x="127.5" y="80" text-anchor="middle" fill="#F8FAFC" font-size="16" font-weight="800" filter="url(#textShadow)">System Visibility</text>
+      <text x="127.5" y="104" text-anchor="middle" fill="#CBD5E1" font-size="12" font-weight="700" filter="url(#textShadow)">Grafana • ELK • monitoring</text>
+    </g>
+
+    <!-- Card 4 -->
+    <g transform="translate(945 145)">
+      <rect width="260" height="125" rx="24" fill="url(#cardBg)" stroke="#22C55E"/>
+      <rect x="0" y="0" width="260" height="6" rx="3" fill="#22C55E"/>
+      <text x="130" y="50" text-anchor="middle" fill="#22C55E" font-size="33" font-weight="900" filter="url(#textShadow)">CP</text>
+      <text x="130" y="80" text-anchor="middle" fill="#F8FAFC" font-size="16" font-weight="800" filter="url(#textShadow)">Problem Solving Core</text>
+      <text x="130" y="104" text-anchor="middle" fill="#CBD5E1" font-size="12" font-weight="700" filter="url(#textShadow)">algorithms • debugging • consistency</text>
+    </g>
+
   </g>
 
-  <g transform="translate(160 300)">
-    <rect x="0" y="0" width="960" height="56" rx="18" fill="#0B1220" stroke="#334155"/>
-    <rect class="bar" x="40" y="18" width="90" height="26" rx="6" fill="#38BDF8"/>
-    <rect class="bar bar2" x="165" y="12" width="90" height="32" rx="6" fill="#60A5FA"/>
-    <rect class="bar bar3" x="290" y="6" width="90" height="38" rx="6" fill="#8B5CF6"/>
-    <rect class="bar bar4" x="415" y="16" width="90" height="28" rx="6" fill="#22C55E"/>
-    <rect class="bar bar2" x="540" y="9" width="90" height="35" rx="6" fill="#F59E0B"/>
-    <rect class="bar bar3" x="665" y="15" width="90" height="29" rx="6" fill="#EF4444"/>
-    <rect class="bar bar4" x="790" y="5" width="90" height="39" rx="6" fill="#14B8A6"/>
+  <!-- Focus Panel -->
+  <g transform="translate(115 305)" font-family="Inter, Segoe UI, Arial, sans-serif" filter="url(#shadow)">
+    <rect width="1050" height="92" rx="24" fill="url(#panelBg)" stroke="#334155"/>
+
+    <text x="525" y="30" text-anchor="middle" fill="#F8FAFC" font-size="17" font-weight="900" filter="url(#textShadow)">
+      Engineering Focus
+    </text>
+
+    <text x="525" y="54" text-anchor="middle" fill="#CBD5E1" font-size="13" font-weight="700" filter="url(#textShadow)">
+      Building practical repositories that prove DevOps execution and cloud-native thinking
+    </text>
+
+    <!-- Chips -->
+    <g font-size="12" font-weight="800">
+      <rect x="120" y="64" width="92" height="22" rx="11" fill="#082F49" stroke="#0EA5E9"/>
+      <text x="166" y="79" text-anchor="middle" fill="#E0F2FE" filter="url(#textShadow)">Kubernetes</text>
+
+      <rect x="230" y="64" width="62" height="22" rx="11" fill="#052E16" stroke="#22C55E"/>
+      <text x="261" y="79" text-anchor="middle" fill="#DCFCE7" filter="url(#textShadow)">AWS</text>
+
+      <rect x="310" y="64" width="72" height="22" rx="11" fill="#2E1065" stroke="#8B5CF6"/>
+      <text x="346" y="79" text-anchor="middle" fill="#EDE9FE" filter="url(#textShadow)">CI/CD</text>
+
+      <rect x="400" y="64" width="70" height="22" rx="11" fill="#2E1065" stroke="#8B5CF6"/>
+      <text x="435" y="79" text-anchor="middle" fill="#EDE9FE" filter="url(#textShadow)">Vault</text>
+
+      <rect x="488" y="64" width="86" height="22" rx="11" fill="#431407" stroke="#F97316"/>
+      <text x="531" y="79" text-anchor="middle" fill="#FFEDD5" filter="url(#textShadow)">Grafana</text>
+
+      <rect x="592" y="64" width="56" height="22" rx="11" fill="#450A0A" stroke="#EF4444"/>
+      <text x="620" y="79" text-anchor="middle" fill="#FEE2E2" filter="url(#textShadow)">ELK</text>
+
+      <rect x="666" y="64" width="72" height="22" rx="11" fill="#172554" stroke="#60A5FA"/>
+      <text x="702" y="79" text-anchor="middle" fill="#DBEAFE" filter="url(#textShadow)">GitOps</text>
+
+      <rect x="756" y="64" width="150" height="22" rx="11" fill="#064E3B" stroke="#14B8A6"/>
+      <text x="831" y="79" text-anchor="middle" fill="#CCFBF1" filter="url(#textShadow)">Problem Solving</text>
+    </g>
   </g>
 
-  <text x="640" y="395" text-anchor="middle" fill="#94A3B8" font-family="Fira Code,Consolas,monospace" font-size="15" font-weight="700">profile signal: DevOps engineering + cloud-native learning + competitive programming</text>
+  <!-- Footer -->
+  <g>
+    <rect x="250" y="425" width="780" height="38" rx="19" fill="#0B1220" fill-opacity="0.97" stroke="#334155"/>
+    <text x="640" y="449" text-anchor="middle" fill="#F8FAFC"
+          font-family="Fira Code, Consolas, monospace"
+          font-size="14" font-weight="800"
+          letter-spacing="0.2px"
+          filter="url(#textShadow)">
+      profile_signal: DevOps engineering + cloud-native growth + competitive programming
+    </text>
+  </g>
+
 </svg>
