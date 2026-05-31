@@ -91,46 +91,6 @@ engineering_mindset:
 
 
 
-## 🛠️ What I Work With
-
-<table>
-  <tr>
-    <td><b>Cloud & Infrastructure</b></td>
-    <td>AWS, Linux servers, Proxmox, VMware ESXi, Nginx, production-related infrastructure operations</td>
-  </tr>
-  <tr>
-    <td><b>Containers & Orchestration</b></td>
-    <td>Docker, Kubernetes, Helm, Kubernetes manifests, service deployment, service migration, ingress configuration</td>
-  </tr>
-  <tr>
-    <td><b>CI/CD & GitOps</b></td>
-    <td>GitLab CI/CD, parallel pipeline execution, ArgoCD, deployment verification, release workflows, GitOps-based delivery</td>
-  </tr>
-  <tr>
-    <td><b>Secrets Management</b></td>
-    <td>HashiCorp Vault, Vault cluster setup, auto-unseal, Kubernetes secrets delivery, secure configuration management</td>
-  </tr>
-  <tr>
-    <td><b>Monitoring & Observability</b></td>
-    <td>Grafana, Prometheus, ELK, EFK, logs, metrics, dashboards, service graphs, system visibility</td>
-  </tr>
-  <tr>
-    <td><b>Troubleshooting & Operations</b></td>
-    <td>Deployment troubleshooting, log analysis, root cause analysis, gateway/API/gRPC connectivity checks, developer collaboration</td>
-  </tr>
-  <tr>
-    <td><b>Problem Solving</b></td>
-    <td>C++, Data Structures, Algorithms, Debugging, Competitive Programming, ICPC-style problem solving</td>
-  </tr>
-</table>
-
-
-
-
-
-
-
-
 
 
 
@@ -142,203 +102,88 @@ engineering_mindset:
 
 <table>
   <tr>
-    <td width="30%"><b>☁️ Cloud & Infrastructure</b></td>
+    <td width="28%"><b>☁️ Cloud & Infrastructure</b></td>
     <td>
-      <code>AWS</code>
-      <code>Linux Servers</code>
-      <code>Proxmox</code>
-      <code>VMware ESXi</code>
-      <code>Nginx</code>
+      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonaws&logoColor=white" />
+      <img src="https://img.shields.io/badge/Linux%20Servers-FCC624?style=flat-square&logo=linux&logoColor=black" />
+      <img src="https://img.shields.io/badge/Proxmox-E57000?style=flat-square&logo=proxmox&logoColor=white" />
+      <img src="https://img.shields.io/badge/VMware%20ESXi-607078?style=flat-square&logo=vmware&logoColor=white" />
+      <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>☸️ Containers & Orchestration</b></td>
+    <td width="28%"><b>☸️ Containers & Orchestration</b></td>
     <td>
-      <code>Docker</code>
-      <code>Kubernetes</code>
-      <code>Helm</code>
-      <code>Kubernetes Manifests</code>
-      <code>Ingress</code>
-      <code>Service Migration</code>
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Helm-0F1689?style=flat-square&logo=helm&logoColor=white" />
+      <img src="https://img.shields.io/badge/Kubernetes%20Manifests-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Ingress-0F172A?style=flat-square&logo=nginx&logoColor=white" />
+      <img src="https://img.shields.io/badge/Service%20Migration-1E293B?style=flat-square&logo=kubernetes&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>🚀 CI/CD & GitOps</b></td>
+    <td width="28%"><b>🚀 CI/CD & GitOps</b></td>
     <td>
-      <code>GitLab CI/CD</code>
-      <code>Parallel Pipelines</code>
-      <code>ArgoCD</code>
-      <code>GitOps</code>
-      <code>Release Workflows</code>
-      <code>Deployment Verification</code>
+      <img src="https://img.shields.io/badge/GitLab%20CI%2FCD-FC6D26?style=flat-square&logo=gitlab&logoColor=white" />
+      <img src="https://img.shields.io/badge/Parallel%20Pipelines-7C3AED?style=flat-square&logo=gitlab&logoColor=white" />
+      <img src="https://img.shields.io/badge/ArgoCD-EF7B4D?style=flat-square&logo=argo&logoColor=white" />
+      <img src="https://img.shields.io/badge/GitOps-0EA5E9?style=flat-square&logo=git&logoColor=white" />
+      <img src="https://img.shields.io/badge/Release%20Workflows-16A34A?style=flat-square&logo=githubactions&logoColor=white" />
+      <img src="https://img.shields.io/badge/Deployment%20Verification-2563EB?style=flat-square&logo=checkmarx&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>🔐 Secrets Management</b></td>
+    <td width="28%"><b>🔐 Secrets Management</b></td>
     <td>
-      <code>HashiCorp Vault</code>
-      <code>Vault Cluster</code>
-      <code>Auto-Unseal</code>
-      <code>K8s Secrets Delivery</code>
-      <code>Secure Configuration</code>
+      <img src="https://img.shields.io/badge/HashiCorp%20Vault-000000?style=flat-square&logo=vault&logoColor=white" />
+      <img src="https://img.shields.io/badge/Vault%20Cluster-111827?style=flat-square&logo=vault&logoColor=white" />
+      <img src="https://img.shields.io/badge/Auto--Unseal-4C1D95?style=flat-square&logo=vault&logoColor=white" />
+      <img src="https://img.shields.io/badge/K8s%20Secrets%20Delivery-326CE5?style=flat-square&logo=kubernetes&logoColor=white" />
+      <img src="https://img.shields.io/badge/Secure%20Configuration-14532D?style=flat-square&logo=letsencrypt&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>📊 Monitoring & Observability</b></td>
+    <td width="28%"><b>📊 Monitoring & Observability</b></td>
     <td>
-      <code>Grafana</code>
-      <code>Prometheus</code>
-      <code>ELK</code>
-      <code>EFK</code>
-      <code>Logs</code>
-      <code>Metrics</code>
-      <code>Service Graphs</code>
+      <img src="https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white" />
+      <img src="https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white" />
+      <img src="https://img.shields.io/badge/ELK-005571?style=flat-square&logo=elastic&logoColor=white" />
+      <img src="https://img.shields.io/badge/EFK-005571?style=flat-square&logo=elastic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Logs-334155?style=flat-square&logo=elastic&logoColor=white" />
+      <img src="https://img.shields.io/badge/Metrics-0F766E?style=flat-square&logo=prometheus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Service%20Graphs-F97316?style=flat-square&logo=grafana&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>🧩 Troubleshooting & Operations</b></td>
+    <td width="28%"><b>🧩 Troubleshooting & Operations</b></td>
     <td>
-      <code>Log Analysis</code>
-      <code>RCA</code>
-      <code>Gateway</code>
-      <code>API</code>
-      <code>gRPC</code>
-      <code>Developer Collaboration</code>
+      <img src="https://img.shields.io/badge/Log%20Analysis-334155?style=flat-square&logo=elastic&logoColor=white" />
+      <img src="https://img.shields.io/badge/RCA-7C2D12?style=flat-square&logo=readthedocs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Gateway-0F172A?style=flat-square&logo=nginx&logoColor=white" />
+      <img src="https://img.shields.io/badge/API-2563EB?style=flat-square&logo=fastapi&logoColor=white" />
+      <img src="https://img.shields.io/badge/gRPC-0F766E?style=flat-square&logo=googlecloud&logoColor=white" />
+      <img src="https://img.shields.io/badge/Developer%20Collaboration-9333EA?style=flat-square&logo=slack&logoColor=white" />
     </td>
   </tr>
 
   <tr>
-    <td width="30%"><b>🏆 Problem Solving</b></td>
+    <td width="28%"><b>🏆 Problem Solving</b></td>
     <td>
-      <code>C++</code>
-      <code>Data Structures</code>
-      <code>Algorithms</code>
-      <code>Debugging</code>
-      <code>Competitive Programming</code>
-      <code>ICPC-style Problem Solving</code>
+      <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" />
+      <img src="https://img.shields.io/badge/Data%20Structures-1E40AF?style=flat-square&logo=codeforces&logoColor=white" />
+      <img src="https://img.shields.io/badge/Algorithms-7C3AED?style=flat-square&logo=codeforces&logoColor=white" />
+      <img src="https://img.shields.io/badge/Debugging-334155?style=flat-square&logo=bugatti&logoColor=white" />
+      <img src="https://img.shields.io/badge/Competitive%20Programming-1F8ACB?style=flat-square&logo=codeforces&logoColor=white" />
+      <img src="https://img.shields.io/badge/ICPC--style%20Problem%20Solving-16A34A?style=flat-square&logo=googlecloud&logoColor=white" />
     </td>
   </tr>
 </table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 🛠️ What I Work With
-
-### ☁️ Cloud & Infrastructure
-
-`AWS` `Linux Servers` `Proxmox` `VMware ESXi` `Nginx`
-Focused on infrastructure operations, server management, environment support, and production-related DevOps work.
-
-### ☸️ Containers & Orchestration
-
-`Docker` `Kubernetes` `Helm` `Kubernetes Manifests` `Ingress`
-Focused on service deployment, service migration, Kubernetes configuration, and workload management.
-
-### 🚀 CI/CD & GitOps
-
-`GitLab CI/CD` `Parallel Pipelines` `ArgoCD` `GitOps` `Release Workflows`
-Focused on faster delivery, deployment verification, automation, and reliable release operations.
-
-### 🔐 Secrets Management
-
-`HashiCorp Vault` `Vault Cluster` `Auto-Unseal` `K8s Secrets Delivery`
-Focused on secure secret delivery, configuration management, and Kubernetes workload security.
-
-### 📊 Monitoring & Observability
-
-`Grafana` `Prometheus` `ELK` `EFK` `Logs` `Metrics` `Service Graphs`
-Focused on system visibility, dashboards, logging, monitoring, and troubleshooting support.
-
-### 🧩 Troubleshooting & Operations
-
-`Log Analysis` `RCA` `Gateway` `API` `gRPC` `Developer Collaboration`
-Focused on deployment troubleshooting, root cause analysis, connectivity checks, and operational reliability.
-
-### 🏆 Problem Solving
-
-`C++` `Data Structures` `Algorithms` `Debugging` `Competitive Programming`
-Focused on structured thinking, pressure handling, debugging mindset, and analytical problem solving.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## 🛠️ What I Work With
-
-| Area                                | Tools & Technologies                                                 | Focus                                                                                             |
-| ----------------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------- |
-| ☁️ **Cloud & Infrastructure**       | AWS, Linux Servers, Proxmox, VMware ESXi, Nginx                      | Infrastructure operations, server management, and environment support                             |
-| ☸️ **Containers & Orchestration**   | Docker, Kubernetes, Helm, Kubernetes Manifests, Ingress              | Service deployment, migration, Kubernetes configuration, and workload management                  |
-| 🚀 **CI/CD & GitOps**               | GitLab CI/CD, Parallel Pipelines, ArgoCD, GitOps, Release Workflows  | Faster delivery, deployment verification, automation, and release reliability                     |
-| 🔐 **Secrets Management**           | HashiCorp Vault, Vault Cluster, Auto-Unseal, K8s Secrets Delivery    | Secure secret delivery, configuration management, and workload security                           |
-| 📊 **Monitoring & Observability**   | Grafana, Prometheus, ELK, EFK, Logs, Metrics, Service Graphs         | System visibility, dashboards, logging, and troubleshooting support                               |
-| 🧩 **Troubleshooting & Operations** | Log Analysis, RCA, Gateway, API, gRPC, Developer Collaboration       | Root cause analysis, connectivity checks, deployment troubleshooting, and operational reliability |
-| 🏆 **Problem Solving**              | C++, Data Structures, Algorithms, Debugging, Competitive Programming | Structured thinking, pressure handling, debugging mindset, and analytical problem solving         |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
