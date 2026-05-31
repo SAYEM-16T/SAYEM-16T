@@ -127,114 +127,108 @@ engineering_mindset:
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 ## 🛠️ What I Work With
 
 <table>
   <tr>
-    <td width="50%">
-      <h3>☁️ Cloud & Infrastructure</h3>
-      <p>
-        <code>AWS</code>
-        <code>Linux Servers</code>
-        <code>Proxmox</code>
-        <code>VMware ESXi</code>
-        <code>Nginx</code>
-      </p>
-      <p>
-        <b>Focus:</b> production-related infrastructure operations, server management, and environment support.
-      </p>
-    </td>
-    <td width="50%">
-      <h3>☸️ Containers & Orchestration</h3>
-      <p>
-        <code>Docker</code>
-        <code>Kubernetes</code>
-        <code>Helm</code>
-        <code>Kubernetes Manifests</code>
-        <code>Ingress</code>
-      </p>
-      <p>
-        <b>Focus:</b> service deployment, service migration, Kubernetes configuration, and workload management.
-      </p>
+    <td width="30%"><b>☁️ Cloud & Infrastructure</b></td>
+    <td>
+      <code>AWS</code>
+      <code>Linux Servers</code>
+      <code>Proxmox</code>
+      <code>VMware ESXi</code>
+      <code>Nginx</code>
     </td>
   </tr>
 
   <tr>
-    <td width="50%">
-      <h3>🚀 CI/CD & GitOps</h3>
-      <p>
-        <code>GitLab CI/CD</code>
-        <code>Parallel Pipelines</code>
-        <code>ArgoCD</code>
-        <code>GitOps</code>
-        <code>Release Workflows</code>
-      </p>
-      <p>
-        <b>Focus:</b> deployment verification, faster delivery, reliable automation, and GitOps-based release operations.
-      </p>
-    </td>
-    <td width="50%">
-      <h3>🔐 Secrets Management</h3>
-      <p>
-        <code>HashiCorp Vault</code>
-        <code>Vault Cluster</code>
-        <code>Auto-Unseal</code>
-        <code>K8s Secrets Delivery</code>
-      </p>
-      <p>
-        <b>Focus:</b> secure secret delivery, configuration management, and Kubernetes workload security.
-      </p>
+    <td width="30%"><b>☸️ Containers & Orchestration</b></td>
+    <td>
+      <code>Docker</code>
+      <code>Kubernetes</code>
+      <code>Helm</code>
+      <code>Kubernetes Manifests</code>
+      <code>Ingress</code>
+      <code>Service Migration</code>
     </td>
   </tr>
 
   <tr>
-    <td width="50%">
-      <h3>📊 Monitoring & Observability</h3>
-      <p>
-        <code>Grafana</code>
-        <code>Prometheus</code>
-        <code>ELK</code>
-        <code>EFK</code>
-        <code>Logs</code>
-        <code>Metrics</code>
-      </p>
-      <p>
-        <b>Focus:</b> dashboards, service graphs, logging, system visibility, and troubleshooting support.
-      </p>
-    </td>
-    <td width="50%">
-      <h3>🧩 Troubleshooting & Operations</h3>
-      <p>
-        <code>Log Analysis</code>
-        <code>RCA</code>
-        <code>Gateway</code>
-        <code>API</code>
-        <code>gRPC</code>
-        <code>Developer Collaboration</code>
-      </p>
-      <p>
-        <b>Focus:</b> deployment troubleshooting, root cause analysis, connectivity checks, and operational reliability.
-      </p>
+    <td width="30%"><b>🚀 CI/CD & GitOps</b></td>
+    <td>
+      <code>GitLab CI/CD</code>
+      <code>Parallel Pipelines</code>
+      <code>ArgoCD</code>
+      <code>GitOps</code>
+      <code>Release Workflows</code>
+      <code>Deployment Verification</code>
     </td>
   </tr>
 
   <tr>
-    <td colspan="2">
-      <h3>🏆 Problem Solving</h3>
-      <p>
-        <code>C++</code>
-        <code>Data Structures</code>
-        <code>Algorithms</code>
-        <code>Debugging</code>
-        <code>Competitive Programming</code>
-        <code>ICPC-style Problem Solving</code>
-      </p>
-      <p>
-        <b>Focus:</b> structured thinking, pressure handling, debugging mindset, and analytical problem solving.
-      </p>
+    <td width="30%"><b>🔐 Secrets Management</b></td>
+    <td>
+      <code>HashiCorp Vault</code>
+      <code>Vault Cluster</code>
+      <code>Auto-Unseal</code>
+      <code>K8s Secrets Delivery</code>
+      <code>Secure Configuration</code>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%"><b>📊 Monitoring & Observability</b></td>
+    <td>
+      <code>Grafana</code>
+      <code>Prometheus</code>
+      <code>ELK</code>
+      <code>EFK</code>
+      <code>Logs</code>
+      <code>Metrics</code>
+      <code>Service Graphs</code>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%"><b>🧩 Troubleshooting & Operations</b></td>
+    <td>
+      <code>Log Analysis</code>
+      <code>RCA</code>
+      <code>Gateway</code>
+      <code>API</code>
+      <code>gRPC</code>
+      <code>Developer Collaboration</code>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="30%"><b>🏆 Problem Solving</b></td>
+    <td>
+      <code>C++</code>
+      <code>Data Structures</code>
+      <code>Algorithms</code>
+      <code>Debugging</code>
+      <code>Competitive Programming</code>
+      <code>ICPC-style Problem Solving</code>
     </td>
   </tr>
 </table>
+
+
+
+
+
 
 
 
