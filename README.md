@@ -304,9 +304,29 @@ My competitive programming journey has helped me build a strong foundation in **
   <img src="assets/github-analytics.svg" alt="GitHub Engineering Activity" width="100%" />
 </p>
 
+
+<!-- ## 📈 Cloud-Native DevOps Activity -->
+
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAYEM-16T&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Contribution Activity Graph" />
+  <img
+    src="https://github-readme-activity-graph.vercel.app/graph?username=SAYEM-16T&custom_title=Cloud-Native%20DevOps%20Contribution%20Activity&bg_color=020617&color=E2E8F0&title_color=F8FAFC&line=38BDF8&point=22C55E&area=true&area_color=38BDF8&hide_border=true&radius=16"
+    alt="Cloud-Native DevOps Contribution Activity"
+    width="100%"
+  />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Focus-Kubernetes%20%7C%20AWS%20%7C%20CI%2FCD-38BDF8?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/Practice-DevOps%20Labs%20%7C%20Infrastructure%20Notes-8B5CF6?style=for-the-badge&logo=github&logoColor=white" />
+  <img src="https://img.shields.io/badge/Core-Problem%20Solving%20%7C%20Consistency-22C55E?style=for-the-badge&logo=codeforces&logoColor=white" />
+</p>
+
+
+
+
+
+
+
 
 ---
 
