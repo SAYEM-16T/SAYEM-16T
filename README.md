@@ -255,6 +255,71 @@ engineering_mindset:
 
 
 
+
+
+
+
+
+
+
+## 🛠️ What I Work With
+
+### ☁️ Cloud & Infrastructure
+
+`AWS` `Linux Servers` `Proxmox` `VMware ESXi` `Nginx`
+Focused on infrastructure operations, server management, environment support, and production-related DevOps work.
+
+### ☸️ Containers & Orchestration
+
+`Docker` `Kubernetes` `Helm` `Kubernetes Manifests` `Ingress`
+Focused on service deployment, service migration, Kubernetes configuration, and workload management.
+
+### 🚀 CI/CD & GitOps
+
+`GitLab CI/CD` `Parallel Pipelines` `ArgoCD` `GitOps` `Release Workflows`
+Focused on faster delivery, deployment verification, automation, and reliable release operations.
+
+### 🔐 Secrets Management
+
+`HashiCorp Vault` `Vault Cluster` `Auto-Unseal` `K8s Secrets Delivery`
+Focused on secure secret delivery, configuration management, and Kubernetes workload security.
+
+### 📊 Monitoring & Observability
+
+`Grafana` `Prometheus` `ELK` `EFK` `Logs` `Metrics` `Service Graphs`
+Focused on system visibility, dashboards, logging, monitoring, and troubleshooting support.
+
+### 🧩 Troubleshooting & Operations
+
+`Log Analysis` `RCA` `Gateway` `API` `gRPC` `Developer Collaboration`
+Focused on deployment troubleshooting, root cause analysis, connectivity checks, and operational reliability.
+
+### 🏆 Problem Solving
+
+`C++` `Data Structures` `Algorithms` `Debugging` `Competitive Programming`
+Focused on structured thinking, pressure handling, debugging mindset, and analytical problem solving.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## 🛠️ What I Work With
 
 | Area                                | Tools & Technologies                                                 | Focus                                                                                             |
