@@ -90,15 +90,7 @@ engineering_mindset:
 ---
 
 
-
-
-
-
-
-
-
-
-## 🛠️ What I Work Withh
+## 🛠️ What I Work With
 
 <table>
   <tr>
@@ -184,12 +176,6 @@ engineering_mindset:
     </td>
   </tr>
 </table>
-
-
-
-
-
-
 
 
 
