@@ -181,26 +181,37 @@ engineering_mindset:
 
 
 
-
-
-
-
----
-
 ## 🧪 Current Learning Roadmap
 
 <p align="center">
-  <img src="assets/cert-roadmap.svg" alt="AWS and CNCF Certification Roadmap" width="100%" />
+  <img src="./assets/cert-roadmap.svg" alt="AWS and CNCF Certification Roadmap" width="100%" />
+</p>
+
+<p align="center">
+  <b>Current Priority:</b> AWS SAA first, then CNCF Kubernetes certifications with a long-term Kubestronaut-focused path.
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/AWS%20SAA-In%20Progress-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
   <img src="https://img.shields.io/badge/KCNA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
   <img src="https://img.shields.io/badge/KCSA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/CKAD-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/CKA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
-  <img src="https://img.shields.io/badge/CKS-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKAD-Planned-7C3AED?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKA-Planned-0EA5E9?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKS-Planned-16A34A?style=for-the-badge&logo=kubernetes&logoColor=white" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Long--Term%20Goal-Kubestronaut%20Path-8B5CF6?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</p>
+
+<p align="center">
+  <sub>
+    Focused on strengthening AWS fundamentals, Kubernetes administration, cloud-native security, and production-grade DevOps engineering.
+  </sub>
+</p>
+
+
+
 
 ---
 
