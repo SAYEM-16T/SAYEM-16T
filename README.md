@@ -339,10 +339,27 @@ My competitive programming journey has helped me build a strong foundation in **
 ## 🤝 Connect With Me
 
 <p align="center">
-  <a href="https://linkedin.com/in/sayem19rony"><img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:sayemiitju@gmail.com"><img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-  <a href="https://codeforces.com/profile/sayem_19"><img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
-  <a href="https://www.codechef.com/users/sayem_18"><img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a>
+  <a href="https://linkedin.com/in/sayem19rony">
+    <img src="https://img.shields.io/badge/LinkedIn-sayem19rony-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+  <a href="mailto:sayemiitju@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail" />
+  </a>
+  <a href="https://github.com/SAYEM-16T">
+    <img src="https://img.shields.io/badge/GitHub-SAYEM--16T-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+</p>
+
+<p align="center">
+  <a href="https://codeforces.com/profile/sayem_19">
+    <img src="https://img.shields.io/badge/Codeforces-sayem__19-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" alt="Codeforces" />
+  </a>
+  <a href="https://www.codechef.com/users/sayem_18">
+    <img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" alt="CodeChef" />
+  </a>
+  <a href="https://atcoder.jp/users/SAYEM_16">
+    <img src="https://img.shields.io/badge/AtCoder-SAYEM__16-22C55E?style=for-the-badge" alt="AtCoder" />
+  </a>
 </p>
 
 ---
