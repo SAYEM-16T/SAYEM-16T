@@ -1,68 +1,242 @@
-<svg width="1280" height="520" viewBox="0 0 1280 520" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DevOps Delivery Workflow">
+<svg width="1280" height="560" viewBox="0 0 1280 560" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="DevOps Delivery Workflow">
+
+  <!-- =========================
+       DEFINITIONS
+       ========================= -->
+
   <defs>
-    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
-      <stop stop-color="#020617"/>
-      <stop offset="0.55" stop-color="#0B1224"/>
-      <stop offset="1" stop-color="#172554"/>
-    </linearGradient>
-    <linearGradient id="card" x1="0" x2="1">
-      <stop stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#111827"/>
-    </linearGradient>
-    <linearGradient id="flow" x1="0" x2="1">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto-start-reverse">
-      <path d="M0,0 L10,5 L0,10 z" fill="#38BDF8"/>
-    </marker>
-    <style>
-      .node { filter: drop-shadow(0px 10px 18px rgba(0,0,0,.35)); }
-      .pulse { animation: pulse 2.8s ease-in-out infinite; transform-origin: center; }
-      .pulse2 { animation: pulse 3.2s ease-in-out infinite; transform-origin: center; animation-delay: .5s; }
-      .dash { stroke-dasharray: 10 12; animation: dash 18s linear infinite; }
-      .float { animation: float 5s ease-in-out infinite; }
-      .float2 { animation: float 6s ease-in-out infinite; animation-delay: .7s; }
-      @keyframes dash { to { stroke-dashoffset: -220; } }
-      @keyframes pulse { 0%,100%{opacity:.72; transform:scale(1)} 50%{opacity:1; transform:scale(1.045)} }
-      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-7px)} }
-    </style>
+
+```
+<!-- Main background -->
+<linearGradient id="bg" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#020617"/>
+  <stop offset="50%" stop-color="#0B1224"/>
+  <stop offset="100%" stop-color="#172554"/>
+</linearGradient>
+
+<!-- Card background -->
+<linearGradient id="cardBg" x1="0" y1="0" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#111827"/>
+  <stop offset="100%" stop-color="#0B1220"/>
+</linearGradient>
+
+<!-- Outer border -->
+<linearGradient id="outerBorder" x1="0" y1="0" x2="1280" y2="560" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35"/>
+  <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.28"/>
+  <stop offset="100%" stop-color="#22C55E" stop-opacity="0.24"/>
+</linearGradient>
+
+<!-- Main workflow line -->
+<linearGradient id="flowMain" x1="60" y1="0" x2="1220" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#38BDF8"/>
+  <stop offset="50%" stop-color="#8B5CF6"/>
+  <stop offset="100%" stop-color="#22C55E"/>
+</linearGradient>
+
+<!-- Kubernetes fan-out connections -->
+<linearGradient id="fanOut" x1="320" y1="0" x2="980" y2="0" gradientUnits="userSpaceOnUse">
+  <stop offset="0%" stop-color="#60A5FA"/>
+  <stop offset="50%" stop-color="#A78BFA"/>
+  <stop offset="100%" stop-color="#22C55E"/>
+</linearGradient>
+
+<!-- Grid background -->
+<pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+  <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#94A3B8" stroke-width="0.6" opacity="0.08"/>
+</pattern>
+
+<!-- Ambient blur glow -->
+<filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+  <feGaussianBlur stdDeviation="45"/>
+</filter>
+
+<!-- Card shadow -->
+<filter id="cardShadow" x="-20%" y="-20%" width="140%" height="150%">
+  <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.38"/>
+</filter>
+
+<!-- Kubernetes glow -->
+<filter id="k8sGlow" x="-40%" y="-40%" width="180%" height="180%">
+  <feDropShadow dx="0" dy="0" stdDeviation="15" flood-color="#60A5FA" flood-opacity="0.22"/>
+</filter>
+
+<!-- Arrow marker -->
+<marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="8" markerHeight="8" orient="auto">
+  <path d="M0,0 L10,5 L0,10 Z" fill="#38BDF8"/>
+</marker>
+```
+
   </defs>
 
-  <rect width="1280" height="520" rx="30" fill="url(#bg)"/>
-  <circle cx="118" cy="85" r="75" fill="#2563EB" opacity=".11" class="pulse"/>
-  <circle cx="1138" cy="420" r="110" fill="#7C3AED" opacity=".12" class="pulse2"/>
+  <!-- =========================
+       BACKGROUND
+       ========================= -->
 
-  <text x="640" y="58" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">DevOps Delivery Workflow</text>
-  <text x="640" y="92" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="600">Developer change → CI/CD → GitOps → Kubernetes → Observability</text>
+  <rect width="1280" height="560" rx="30" fill="url(#bg)"/>
+  <rect width="1280" height="560" rx="30" fill="url(#grid)" opacity="0.55"/>
 
-  <g font-family="Inter,Segoe UI,Arial" font-weight="800" font-size="16">
-    <g transform="translate(60 165)" class="node float"><rect width="150" height="80" rx="18" fill="url(#card)" stroke="#38BDF8"/><text x="75" y="36" text-anchor="middle" fill="white">Developer</text><text x="75" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">push / merge</text></g>
-    <g transform="translate(255 165)" class="node float2"><rect width="160" height="80" rx="18" fill="url(#card)" stroke="#A78BFA"/><text x="80" y="34" text-anchor="middle" fill="white">GitLab CI/CD</text><text x="80" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">parallel pipeline</text></g>
-    <g transform="translate(460 165)" class="node float"><rect width="150" height="80" rx="18" fill="url(#card)" stroke="#22C55E"/><text x="75" y="34" text-anchor="middle" fill="white">Docker Image</text><text x="75" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">build &amp; release</text></g>
-    <g transform="translate(655 165)" class="node float2"><rect width="145" height="80" rx="18" fill="url(#card)" stroke="#F97316"/><text x="72" y="34" text-anchor="middle" fill="white">ArgoCD</text><text x="72" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">GitOps sync</text></g>
-    <g transform="translate(845 165)" class="node float"><rect width="165" height="80" rx="18" fill="url(#card)" stroke="#60A5FA"/><text x="82" y="34" text-anchor="middle" fill="white">Kubernetes</text><text x="82" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">deploy / manage</text></g>
-    <g transform="translate(1055 165)" class="node float2"><rect width="160" height="80" rx="18" fill="url(#card)" stroke="#EF4444"/><text x="80" y="34" text-anchor="middle" fill="white">Users / API</text><text x="80" y="58" text-anchor="middle" fill="#94A3B8" font-size="12">gateway / gRPC</text></g>
+  <!-- Ambient glows -->
+
+  <circle cx="130" cy="90" r="105" fill="#2563EB" opacity="0.12" filter="url(#blurGlow)"/>
+  <circle cx="1130" cy="450" r="140" fill="#7C3AED" opacity="0.13" filter="url(#blurGlow)"/>
+  <circle cx="640" cy="560" r="220" fill="#22C55E" opacity="0.05" filter="url(#blurGlow)"/>
+
+  <!-- Outer border -->
+
+  <rect x="1.5" y="1.5" width="1277" height="557" rx="28.5" fill="none" stroke="url(#outerBorder)" stroke-width="1.5"/>
+
+  <!-- =========================
+       HEADER
+       ========================= -->
+
+  <text x="640" y="58" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">
+    DevOps Delivery Workflow
+  </text>
+
+  <text x="640" y="92" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">
+    Developer Change → CI/CD → GitOps → Kubernetes → Secrets, Metrics, Logging
+  </text>
+
+  <!-- =========================
+       TOP WORKFLOW NODES
+       ========================= -->
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="16">
+
+```
+<!-- Developer -->
+<g transform="translate(55 165)" filter="url(#cardShadow)">
+  <rect width="145" height="84" rx="18" fill="url(#cardBg)" stroke="#38BDF8"/>
+  <text x="72.5" y="35" text-anchor="middle" fill="#F8FAFC">Developer</text>
+  <text x="72.5" y="60" text-anchor="middle" fill="#94A3B8" font-size="12" font-weight="600">push / merge</text>
+</g>
+
+<!-- GitLab CI/CD -->
+<g transform="translate(235 165)" filter="url(#cardShadow)">
+  <rect width="160" height="84" rx="18" fill="url(#cardBg)" stroke="#A78BFA"/>
+  <text x="80" y="35" text-anchor="middle" fill="#F8FAFC">GitLab CI/CD</text>
+  <text x="80" y="60" text-anchor="middle" fill="#94A3B8" font-size="12" font-weight="600">parallel pipeline</text>
+</g>
+
+<!-- Docker Image -->
+<g transform="translate(430 165)" filter="url(#cardShadow)">
+  <rect width="150" height="84" rx="18" fill="url(#cardBg)" stroke="#22C55E"/>
+  <text x="75" y="35" text-anchor="middle" fill="#F8FAFC">Docker Image</text>
+  <text x="75" y="60" text-anchor="middle" fill="#94A3B8" font-size="12" font-weight="600">build &amp; release</text>
+</g>
+
+<!-- ArgoCD -->
+<g transform="translate(615 165)" filter="url(#cardShadow)">
+  <rect width="145" height="84" rx="18" fill="url(#cardBg)" stroke="#F97316"/>
+  <text x="72.5" y="35" text-anchor="middle" fill="#F8FAFC">ArgoCD</text>
+  <text x="72.5" y="60" text-anchor="middle" fill="#94A3B8" font-size="12" font-weight="600">GitOps sync</text>
+</g>
+
+<!-- Kubernetes -->
+<g transform="translate(815 156)" filter="url(#k8sGlow)">
+  <rect width="180" height="102" rx="20" fill="#0B1220" stroke="#60A5FA" stroke-width="2"/>
+  <rect x="0" y="0" width="180" height="6" rx="3" fill="#60A5FA"/>
+  <text x="90" y="42" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="20" font-weight="900">
+    Kubernetes
+  </text>
+  <text x="90" y="66" text-anchor="middle" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" font-weight="700">
+    deploy / manage / scale
+  </text>
+  <text x="90" y="86" text-anchor="middle" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="11" font-weight="600">
+    orchestration hub
+  </text>
+</g>
+
+<!-- Users/API -->
+<g transform="translate(1045 165)" filter="url(#cardShadow)">
+  <rect width="165" height="84" rx="18" fill="url(#cardBg)" stroke="#EF4444"/>
+  <text x="82.5" y="35" text-anchor="middle" fill="#F8FAFC">Users / API</text>
+  <text x="82.5" y="60" text-anchor="middle" fill="#94A3B8" font-size="12" font-weight="600">gateway / gRPC</text>
+</g>
+```
+
   </g>
 
-  <g stroke="url(#flow)" stroke-width="3" marker-end="url(#arrow)" filter="url(#glow)">
-    <path d="M215 205 H247"/><path d="M418 205 H452"/><path d="M612 205 H647"/><path d="M802 205 H837"/><path d="M1012 205 H1047"/>
-  </g>
-  <g stroke="#38BDF8" stroke-width="2" opacity=".75" class="dash">
-    <path d="M215 205 H247"/><path d="M418 205 H452"/><path d="M612 205 H647"/><path d="M802 205 H837"/><path d="M1012 205 H1047"/>
+  <!-- =========================
+       MAIN FLOW CONNECTIONS
+       ========================= -->
+
+  <g stroke="url(#flowMain)" stroke-width="3.2" stroke-linecap="round" marker-end="url(#arrow)" fill="none">
+    <path d="M202 207 H228"/>
+    <path d="M397 207 H423"/>
+    <path d="M582 207 H608"/>
+    <path d="M762 207 H808"/>
+    <path d="M998 207 H1037"/>
   </g>
 
-  <g font-family="Inter,Segoe UI,Arial" font-weight="800" font-size="16">
-    <g transform="translate(280 345)" class="node float2"><rect width="170" height="76" rx="18" fill="#0B1220" stroke="#8B5CF6"/><text x="85" y="32" fill="white" text-anchor="middle">Vault</text><text x="85" y="55" fill="#94A3B8" text-anchor="middle" font-size="12">secure secrets</text></g>
-    <g transform="translate(555 345)" class="node float"><rect width="170" height="76" rx="18" fill="#0B1220" stroke="#F97316"/><text x="85" y="32" fill="white" text-anchor="middle">Grafana</text><text x="85" y="55" fill="#94A3B8" text-anchor="middle" font-size="12">service graphs</text></g>
-    <g transform="translate(825 345)" class="node float2"><rect width="170" height="76" rx="18" fill="#0B1220" stroke="#22C55E"/><text x="85" y="32" fill="white" text-anchor="middle">ELK / EFK</text><text x="85" y="55" fill="#94A3B8" text-anchor="middle" font-size="12">logs &amp; search</text></g>
+  <!-- =========================
+       BOTTOM INTEGRATION NODES
+       ========================= -->
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" font-size="16">
+
+```
+<!-- Vault -->
+<g transform="translate(210 385)" filter="url(#cardShadow)">
+  <rect width="210" height="88" rx="18" fill="#0B1220" stroke="#8B5CF6"/>
+  <text x="105" y="34" text-anchor="middle" fill="#F8FAFC">Vault</text>
+  <text x="105" y="57" text-anchor="middle" fill="#DDD6FE" font-size="12" font-weight="700">Secrets Management</text>
+  <text x="105" y="75" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">secure secret delivery</text>
+</g>
+
+<!-- Grafana -->
+<g transform="translate(535 385)" filter="url(#cardShadow)">
+  <rect width="210" height="88" rx="18" fill="#0B1220" stroke="#F97316"/>
+  <text x="105" y="34" text-anchor="middle" fill="#F8FAFC">Grafana</text>
+  <text x="105" y="57" text-anchor="middle" fill="#FDE68A" font-size="12" font-weight="700">Dashboards &amp; Metrics</text>
+  <text x="105" y="75" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">service graphs / visibility</text>
+</g>
+
+<!-- ELK -->
+<g transform="translate(860 385)" filter="url(#cardShadow)">
+  <rect width="210" height="88" rx="18" fill="#0B1220" stroke="#22C55E"/>
+  <text x="105" y="34" text-anchor="middle" fill="#F8FAFC">ELK Stack</text>
+  <text x="105" y="57" text-anchor="middle" fill="#BBF7D0" font-size="12" font-weight="700">Search &amp; Analytics</text>
+  <text x="105" y="75" text-anchor="middle" fill="#94A3B8" font-size="11" font-weight="600">Elasticsearch / Logstash / Kibana</text>
+</g>
+```
+
   </g>
-  <g stroke="#64748B" stroke-width="2" stroke-dasharray="8 8" opacity=".8">
-    <path d="M925 248 C830 315, 670 310, 640 345"/><path d="M925 248 C780 330, 455 300, 365 345"/><path d="M925 248 C935 320, 925 320, 910 345"/>
+
+  <!-- =========================
+       KUBERNETES FAN-OUT CONNECTIONS
+       Kubernetes → Vault / Grafana / ELK
+       Drawn before label so label stays clean
+       ========================= -->
+
+  <g stroke="url(#fanOut)" stroke-width="2.8" fill="none" stroke-linecap="round">
+    <path d="M905 258 C860 320, 610 335, 315 385"/>
+    <path d="M905 258 C900 320, 790 338, 640 385"/>
+    <path d="M905 258 C935 320, 965 338, 965 385"/>
   </g>
+
+  <!-- Connection dots -->
+
+  <g fill="#E2E8F0" opacity="0.82">
+    <circle cx="905" cy="258" r="4.5"/>
+    <circle cx="315" cy="385" r="4"/>
+    <circle cx="640" cy="385" r="4"/>
+    <circle cx="965" cy="385" r="4"/>
+  </g>
+
+  <!-- =========================
+       SECTION LABEL
+       This label is rendered after connection lines
+       so lines will not cut through the text
+       ========================= -->
+
+  <!-- Footer Operations Label -->
+  <g>
+    <rect x="350" y="505" width="580" height="38" rx="19" fill="#0B1220" fill-opacity="0.97" stroke="#1E293B"/>
+    <text x="640" y="529" text-anchor="middle" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">
+      Kubernetes Operations Layer: Secrets • Metrics • Logs
+    </text>
+  </g>
+
 </svg>

@@ -1,62 +1,80 @@
-<svg width="1280" height="420" viewBox="0 0 1280 420" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#020617"/>
-      <stop offset="0.38" stop-color="#0F172A"/>
-      <stop offset="0.72" stop-color="#111827"/>
-      <stop offset="1" stop-color="#172554"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="48%" stop-color="#0a1731"/>
+      <stop offset="100%" stop-color="#152f62"/>
     </linearGradient>
-    <linearGradient id="accent" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
-      <stop offset="0" stop-color="#38BDF8"/>
-      <stop offset="0.45" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="12" result="coloredBlur"/>
-      <feMerge>
-        <feMergeNode in="coloredBlur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.6" opacity="0.35"/>
+
+    <radialGradient id="purpleGlow" cx="0.12" cy="0.88" r="0.55">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+
+    <radialGradient id="blueGlow" cx="0.90" cy="0.12" r="0.44">
+      <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94a3b8" stroke-opacity="0.06" stroke-width="1"/>
     </pattern>
-  <style>
-      .hero-float { animation: heroFloat 6s ease-in-out infinite; }
-      .hero-pulse { animation: heroPulse 4s ease-in-out infinite; transform-origin:center; }
-      .hero-dash { stroke-dasharray: 16 18; animation: heroDash 20s linear infinite; }
-      @keyframes heroFloat { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-6px)} }
-      @keyframes heroPulse { 0%,100%{opacity:.12} 50%{opacity:.24} }
-      @keyframes heroDash { to { stroke-dashoffset:-260; } }
+
+    <linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+      <stop offset="30%" stop-color="#8b5cf6" stop-opacity="0.85"/>
+      <stop offset="62%" stop-color="#38bdf8" stop-opacity="0.95"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#22d3ee"/>
+      <stop offset="100%" stop-color="#4f8cff"/>
+    </linearGradient>
+
+    <linearGradient id="cardBorder2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#ec4899"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#020617" flood-opacity="0.46"/>
+    </filter>
+
+    <style>
+      .eyebrow { font: 700 24px 'Inter','Segoe UI',Arial,sans-serif; letter-spacing: 0.18em; text-transform: uppercase; fill: #e2e8f0; }
+      .name { font: 800 72px 'Inter','Segoe UI',Arial,sans-serif; letter-spacing: -0.03em; fill: #fffaf5; }
+      .role { font: 700 40px 'Inter','Segoe UI',Arial,sans-serif; fill: #dbeafe; }
+      .stack { font: 600 24px 'Inter','Segoe UI',Arial,sans-serif; fill: #cbd5e1; }
+      .pill { font: 700 18px 'Inter','Segoe UI',Arial,sans-serif; fill: #ffffff; }
+      .cardTitle { font: 800 28px 'Inter','Segoe UI',Arial,sans-serif; }
+      .cardMeta { font: 700 18px 'Inter','Segoe UI',Arial,sans-serif; fill: #e5e7eb; }
+      .cardLine { font: 600 17px 'Inter','Segoe UI',Arial,sans-serif; fill: #cbd5e1; }
+      .cardHint { font: 600 15px 'Inter','Segoe UI',Arial,sans-serif; fill: #94a3b8; }
     </style>
   </defs>
-  <rect width="1280" height="420" rx="34" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="34" fill="url(#grid)"/>
-  <circle class="hero-pulse" cx="1110" cy="60" r="170" fill="#2563EB" opacity="0.18" filter="url(#glow)"/>
-  <circle class="hero-pulse" cx="165" cy="342" r="210" fill="#7C3AED" opacity="0.16" filter="url(#glow)"/>
-  <path class="hero-dash" d="M70 310 C240 185, 325 370, 505 242 S735 124, 910 232 S1125 315, 1214 174" stroke="url(#accent)" stroke-width="3" opacity="0.72"/>
-  <path d="M70 330 C250 210, 335 393, 515 263 S725 157, 900 255 S1115 340, 1214 203" stroke="#38BDF8" stroke-width="1" opacity="0.28"/>
-  <g opacity="0.75">
-    <circle cx="180" cy="95" r="4" fill="#38BDF8"/><circle cx="220" cy="95" r="4" fill="#8B5CF6"/><circle cx="260" cy="95" r="4" fill="#22C55E"/>
-    <line x1="184" y1="95" x2="216" y2="95" stroke="#64748B"/><line x1="224" y1="95" x2="256" y2="95" stroke="#64748B"/>
+
+  <rect x="12" y="12" width="1576" height="476" rx="34" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="12" y="12" width="1576" height="476" rx="34" fill="url(#grid)"/>
+  <rect x="12" y="12" width="1576" height="476" rx="34" fill="url(#purpleGlow)"/>
+  <rect x="12" y="12" width="1576" height="476" rx="34" fill="url(#blueGlow)"/>
+
+  <circle cx="130" cy="430" r="250" fill="#7c3aed" opacity="0.10"/>
+  <circle cx="1435" cy="95" r="220" fill="#60a5fa" opacity="0.10"/>
+
+  <text x="86" y="92" class="eyebrow">Cloud-Native DevOps • Kubernetes • AWS • CI/CD</text>
+  <text x="86" y="182" class="name">Md. Abu Sayem Rony</text>
+  <text x="86" y="242" class="role">Junior DevOps Engineer @ Foodi</text>
+  <text x="86" y="294" class="stack">Kubernetes • AWS • Linux • Docker • GitLab CI/CD • ArgoCD • Vault • Grafana • ELK/EFK</text>
+
+  <g transform="translate(86 344)">
+    <g><rect width="126" height="42" rx="21" fill="#0ea5e9"/><text x="63" y="27" text-anchor="middle" class="pill">Kubernetes</text></g>
+    <g transform="translate(140 0)"><rect width="98" height="42" rx="21" fill="#f59e0b"/><text x="49" y="27" text-anchor="middle" class="pill">AWS</text></g>
+    <g transform="translate(252 0)"><rect width="106" height="42" rx="21" fill="#22c55e"/><text x="53" y="27" text-anchor="middle" class="pill">CI/CD</text></g>
+    <g transform="translate(372 0)"><rect width="102" height="42" rx="21" fill="#8b5cf6"/><text x="51" y="27" text-anchor="middle" class="pill">Vault</text></g>
+    <g transform="translate(488 0)"><rect width="116" height="42" rx="21" fill="#ef4444"/><text x="58" y="27" text-anchor="middle" class="pill">Grafana</text></g>
   </g>
-  <text x="70" y="95" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700" letter-spacing="2.5">CLOUD-NATIVE DEVOPS • KUBERNETES • AWS • CI/CD</text>
-  <text x="70" y="170" fill="white" font-family="Inter,Segoe UI,Arial" font-size="58" font-weight="900">Md. Abu Sayem Rony</text>
-  <text x="72" y="218" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="24" font-weight="700">Junior DevOps Engineer @ Foodi</text>
-  <text x="72" y="255" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="600">Kubernetes • AWS • Linux • Docker • GitLab CI/CD • ArgoCD • Vault • Grafana • ELK/EFK</text>
-  <g transform="translate(70 292)">
-    <rect x="0" y="0" width="140" height="38" rx="19" fill="#0EA5E9" opacity="0.95"/><text x="70" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Kubernetes</text>
-    <rect x="154" y="0" width="92" height="38" rx="19" fill="#F59E0B" opacity="0.95"/><text x="200" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">AWS</text>
-    <rect x="260" y="0" width="102" height="38" rx="19" fill="#22C55E" opacity="0.95"/><text x="311" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">CI/CD</text>
-    <rect x="376" y="0" width="102" height="38" rx="19" fill="#8B5CF6" opacity="0.95"/><text x="427" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Vault</text>
-    <rect x="492" y="0" width="110" height="38" rx="19" fill="#EF4444" opacity="0.95"/><text x="547" y="25" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="14" font-weight="800">Grafana</text>
-  </g>
-  <g class="hero-float" transform="translate(885 112)" filter="url(#glow)">
-    <rect x="0" y="0" width="300" height="188" rx="24" fill="#020617" opacity="0.82" stroke="#38BDF8" stroke-width="1.4"/>
-    <text x="26" y="42" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="16" font-weight="700">$ kubectl get identity</text>
-    <text x="26" y="76" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">role: DevOps Engineer</text>
-    <text x="26" y="105" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">mode: build • ship • observe</text>
-    <text x="26" y="134" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="14">cp: ICPC + CF Expert</text>
-    <text x="26" y="163" fill="#22C55E" font-family="Fira Code,Consolas,monospace" font-size="14">status: learning fast 🚀</text>
-  </g>
+
+  <path d="M 365 355 C 520 200, 710 180, 900 255 S 1180 330, 1456 214" fill="none" stroke="url(#accentLine)" stroke-width="4" stroke-linecap="round"/>
+  <path d="M 398 378 C 560 255, 736 235, 922 297 S 1180 348, 1428 246" fill="none" stroke="#38bdf8" stroke-opacity="0.16" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -63,19 +63,22 @@ Before DevOps, I built a strong foundation in **competitive programming**. As an
   <img src="assets/devops-workflow.svg" alt="DevOps Delivery Workflow" width="100%" />
 </p>
 
+
 ## 🎯 Current Mission
 
 ```yaml
 current_role: Junior DevOps Engineer @ Foodi
-mission:
-  - build reliable Kubernetes-based deployments
-  - improve CI/CD speed with parallel pipeline execution
-  - secure service secrets using HashiCorp Vault
-  - improve visibility with Grafana service graphs
-  - strengthen logging and observability using ELK / EFK
-  - support production-related DevOps operations
-  - solve real-world deployment and infrastructure problems
-mindset:
+
+focus:
+  - Kubernetes-based service deployment
+  - AWS and production-related DevOps operations
+  - CI/CD optimization with parallel pipeline execution
+  - Vault-based secrets management for Kubernetes
+  - Grafana service graphs and monitoring dashboards
+  - ELK / EFK logging and observability
+  - deployment troubleshooting and operational reliability
+
+engineering_mindset:
   - automate what repeats
   - monitor what matters
   - secure what is sensitive
@@ -83,36 +86,161 @@ mindset:
   - improve what slows delivery
 ```
 
+
 ---
+
+
 
 ## 🛠️ What I Work With
 
 <table>
   <tr>
     <td><b>Cloud & Infrastructure</b></td>
-    <td>AWS, Linux servers, Proxmox, VMware ESXi, Nginx</td>
+    <td>AWS, Linux servers, Proxmox, VMware ESXi, Nginx, production-related infrastructure operations</td>
   </tr>
   <tr>
     <td><b>Containers & Orchestration</b></td>
-    <td>Docker, Kubernetes, Helm, Kubernetes manifests, service migration</td>
+    <td>Docker, Kubernetes, Helm, Kubernetes manifests, service deployment, service migration, ingress configuration</td>
   </tr>
   <tr>
     <td><b>CI/CD & GitOps</b></td>
-    <td>GitLab CI/CD, parallel pipelines, ArgoCD, deployment verification, release workflows</td>
+    <td>GitLab CI/CD, parallel pipeline execution, ArgoCD, deployment verification, release workflows, GitOps-based delivery</td>
   </tr>
   <tr>
     <td><b>Secrets Management</b></td>
-    <td>HashiCorp Vault, Vault cluster setup, auto-unseal, secure secret delivery</td>
+    <td>HashiCorp Vault, Vault cluster setup, auto-unseal, Kubernetes secrets delivery, secure configuration management</td>
   </tr>
   <tr>
     <td><b>Monitoring & Observability</b></td>
-    <td>Grafana, Prometheus, ELK, EFK, logs, metrics, service graphs, troubleshooting</td>
+    <td>Grafana, Prometheus, ELK, EFK, logs, metrics, dashboards, service graphs, system visibility</td>
+  </tr>
+  <tr>
+    <td><b>Troubleshooting & Operations</b></td>
+    <td>Deployment troubleshooting, log analysis, root cause analysis, gateway/API/gRPC connectivity checks, developer collaboration</td>
   </tr>
   <tr>
     <td><b>Problem Solving</b></td>
-    <td>C++, Data Structures, Algorithms, Debugging, Competitive Programming</td>
+    <td>C++, Data Structures, Algorithms, Debugging, Competitive Programming, ICPC-style problem solving</td>
   </tr>
 </table>
+
+
+
+
+## 🛠️ What I Work With
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>☁️ Cloud & Infrastructure</h3>
+      <p>
+        <code>AWS</code>
+        <code>Linux Servers</code>
+        <code>Proxmox</code>
+        <code>VMware ESXi</code>
+        <code>Nginx</code>
+      </p>
+      <p>
+        <b>Focus:</b> production-related infrastructure operations, server management, and environment support.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>☸️ Containers & Orchestration</h3>
+      <p>
+        <code>Docker</code>
+        <code>Kubernetes</code>
+        <code>Helm</code>
+        <code>Kubernetes Manifests</code>
+        <code>Ingress</code>
+      </p>
+      <p>
+        <b>Focus:</b> service deployment, service migration, Kubernetes configuration, and workload management.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <h3>🚀 CI/CD & GitOps</h3>
+      <p>
+        <code>GitLab CI/CD</code>
+        <code>Parallel Pipelines</code>
+        <code>ArgoCD</code>
+        <code>GitOps</code>
+        <code>Release Workflows</code>
+      </p>
+      <p>
+        <b>Focus:</b> deployment verification, faster delivery, reliable automation, and GitOps-based release operations.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🔐 Secrets Management</h3>
+      <p>
+        <code>HashiCorp Vault</code>
+        <code>Vault Cluster</code>
+        <code>Auto-Unseal</code>
+        <code>K8s Secrets Delivery</code>
+      </p>
+      <p>
+        <b>Focus:</b> secure secret delivery, configuration management, and Kubernetes workload security.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td width="50%">
+      <h3>📊 Monitoring & Observability</h3>
+      <p>
+        <code>Grafana</code>
+        <code>Prometheus</code>
+        <code>ELK</code>
+        <code>EFK</code>
+        <code>Logs</code>
+        <code>Metrics</code>
+      </p>
+      <p>
+        <b>Focus:</b> dashboards, service graphs, logging, system visibility, and troubleshooting support.
+      </p>
+    </td>
+    <td width="50%">
+      <h3>🧩 Troubleshooting & Operations</h3>
+      <p>
+        <code>Log Analysis</code>
+        <code>RCA</code>
+        <code>Gateway</code>
+        <code>API</code>
+        <code>gRPC</code>
+        <code>Developer Collaboration</code>
+      </p>
+      <p>
+        <b>Focus:</b> deployment troubleshooting, root cause analysis, connectivity checks, and operational reliability.
+      </p>
+    </td>
+  </tr>
+
+  <tr>
+    <td colspan="2">
+      <h3>🏆 Problem Solving</h3>
+      <p>
+        <code>C++</code>
+        <code>Data Structures</code>
+        <code>Algorithms</code>
+        <code>Debugging</code>
+        <code>Competitive Programming</code>
+        <code>ICPC-style Problem Solving</code>
+      </p>
+      <p>
+        <b>Focus:</b> structured thinking, pressure handling, debugging mindset, and analytical problem solving.
+      </p>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+
 
 ---
 

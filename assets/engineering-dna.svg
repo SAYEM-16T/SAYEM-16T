@@ -1,6 +1,214 @@
 <svg width="1280" height="420" viewBox="0 0 1280 420" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="bg" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient><linearGradient id="l" x1="0" x2="1"><stop stop-color="#38BDF8"/><stop offset="1" stop-color="#8B5CF6"/></linearGradient></defs><rect width="1280" height="420" rx="30" fill="url(#bg)"/><text x="640" y="62" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="34" font-weight="900">Engineering DNA</text>
-<g transform="translate(80 120)"><rect width="520" height="230" rx="26" fill="#0B1220" stroke="#38BDF8"/><text x="260" y="55" text-anchor="middle" fill="#38BDF8" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="900">⚙️ DevOps Engineer</text><text x="260" y="105" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Kubernetes • AWS • CI/CD • Linux • Docker</text><text x="260" y="145" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Vault • ArgoCD • Grafana • ELK/EFK</text><text x="260" y="190" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="600">Deploy reliably. Observe deeply. Secure secrets.</text></g>
-<g transform="translate(680 120)"><rect width="520" height="230" rx="26" fill="#0B1220" stroke="#8B5CF6"/><text x="260" y="55" text-anchor="middle" fill="#A78BFA" font-family="Inter,Segoe UI,Arial" font-size="26" font-weight="900">🏆 Competitive Programmer</text><text x="260" y="105" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">ICPC Regionalist • Codeforces Expert</text><text x="260" y="145" text-anchor="middle" fill="#E2E8F0" font-family="Inter,Segoe UI,Arial" font-size="18" font-weight="700">Algorithms • Debugging • Pressure Handling</text><text x="260" y="190" text-anchor="middle" fill="#94A3B8" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="600">Think clearly. Solve fast. Improve continuously.</text></g>
-<path d="M600 235 C630 185, 650 285, 680 235" stroke="url(#l)" stroke-width="5" fill="none"/>
+
+```
+<!-- =========================
+     DEFINITIONS
+     Background, gradients, glow, grid pattern
+     ========================= -->
+<defs>
+
+    <!-- Main premium dark background -->
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#020617" />
+        <stop offset="45%" stop-color="#07111F" />
+        <stop offset="100%" stop-color="#111827" />
+    </linearGradient>
+
+    <!-- Subtle frame gradient -->
+    <linearGradient id="frame" x1="0" y1="0" x2="1280" y2="420" gradientUnits="userSpaceOnUse">
+        <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.35" />
+        <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.28" />
+        <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.18" />
+    </linearGradient>
+
+    <!-- Middle connector line gradient -->
+    <linearGradient id="l" x1="0" x2="1">
+        <stop stop-color="#38BDF8" />
+        <stop offset="1" stop-color="#8B5CF6" />
+    </linearGradient>
+
+    <!-- Subtle grid pattern for background -->
+    <pattern id="grid" width="44" height="44" patternUnits="userSpaceOnUse">
+        <path d="M 44 0 L 0 0 0 44" fill="none" stroke="#94A3B8" stroke-width="0.6" opacity="0.08"/>
+    </pattern>
+
+    <!-- Soft glow filter -->
+    <filter id="blurGlow" x="-50%" y="-50%" width="200%" height="200%">
+        <feGaussianBlur stdDeviation="42" />
+    </filter>
+
+    <!-- Card shadow -->
+    <filter id="cardShadow" x="-15%" y="-15%" width="130%" height="140%">
+        <feDropShadow dx="0" dy="12" stdDeviation="14" flood-color="#000000" flood-opacity="0.35"/>
+    </filter>
+
+</defs>
+
+<!-- =========================
+     MAIN BACKGROUND
+     Premium dark background + subtle grid + ambient glow
+     ========================= -->
+<rect width="1280" height="420" rx="30" fill="url(#bg)" />
+
+<!-- Soft ambient glows -->
+<circle cx="170" cy="80" r="110" fill="#38BDF8" fill-opacity="0.10" filter="url(#blurGlow)" />
+<circle cx="1110" cy="90" r="120" fill="#8B5CF6" fill-opacity="0.12" filter="url(#blurGlow)" />
+<circle cx="640" cy="420" r="180" fill="#2563EB" fill-opacity="0.07" filter="url(#blurGlow)" />
+
+<!-- Subtle grid overlay -->
+<rect width="1280" height="420" rx="30" fill="url(#grid)" opacity="0.65" />
+
+<!-- Premium outer border -->
+<rect x="1.5" y="1.5" width="1277" height="417" rx="28.5" fill="none" stroke="url(#frame)" stroke-width="1.5" />
+
+<!-- =========================
+     HEADER
+     ========================= -->
+<text x="640" y="58" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="34" font-weight="900">
+    Engineering DNA
+</text>
+
+<text x="640" y="88" text-anchor="middle" fill="#94A3B8" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" font-weight="600">
+    Cloud-Native DevOps × Competitive Programming
+</text>
+
+<!-- =========================
+     LEFT CARD
+     DevOps Engineer section
+     ========================= -->
+<g transform="translate(80 120)" filter="url(#cardShadow)">
+
+    <!-- Left card background box -->
+    <rect
+        width="520"
+        height="230"
+        rx="26"
+        fill="#0B1220"
+        stroke="#38BDF8" />
+
+    <!-- Left card heading -->
+    <text
+        x="260"
+        y="55"
+        text-anchor="middle"
+        fill="#38BDF8"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="26"
+        font-weight="900">
+        ⚙️ DevOps Engineer
+    </text>
+
+    <!-- Left card first skills line -->
+    <text
+        x="260"
+        y="105"
+        text-anchor="middle"
+        fill="#E2E8F0"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="18"
+        font-weight="700">
+        Kubernetes • AWS • CI/CD • Linux • Docker
+    </text>
+
+    <!-- Left card second skills line -->
+    <text
+        x="260"
+        y="145"
+        text-anchor="middle"
+        fill="#E2E8F0"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="18"
+        font-weight="700">
+        Vault • ArgoCD • Grafana • ELK/EFK
+    </text>
+
+    <!-- Left card tagline / small summary -->
+    <text
+        x="260"
+        y="190"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="15"
+        font-weight="600">
+        Deploy reliably. Observe deeply. Secure secrets.
+    </text>
+
+</g>
+
+<!-- =========================
+     RIGHT CARD
+     Competitive Programmer section
+     ========================= -->
+<g transform="translate(680 120)" filter="url(#cardShadow)">
+
+    <!-- Right card background box -->
+    <rect
+        width="520"
+        height="230"
+        rx="26"
+        fill="#0B1220"
+        stroke="#8B5CF6" />
+
+    <!-- Right card heading -->
+    <text
+        x="260"
+        y="55"
+        text-anchor="middle"
+        fill="#A78BFA"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="26"
+        font-weight="900">
+        🏆 Competitive Programmer
+    </text>
+
+    <!-- Right card first skills/identity line -->
+    <text
+        x="260"
+        y="105"
+        text-anchor="middle"
+        fill="#E2E8F0"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="18"
+        font-weight="700">
+        ICPC Regionalist • Codeforces Expert
+    </text>
+
+    <!-- Right card second skills/identity line -->
+    <text
+        x="260"
+        y="145"
+        text-anchor="middle"
+        fill="#E2E8F0"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="18"
+        font-weight="700">
+        Algorithms • Debugging • Pressure Handling
+    </text>
+
+    <!-- Right card tagline / small summary -->
+    <text
+        x="260"
+        y="190"
+        text-anchor="middle"
+        fill="#94A3B8"
+        font-family="Inter,Segoe UI,Arial"
+        font-size="15"
+        font-weight="600">
+        Think clearly. Solve fast. Improve continuously.
+    </text>
+
+</g>
+
+<!-- =========================
+     MIDDLE CONNECTOR CURVE
+     ========================= -->
+<path
+    d="M600 235 C630 185, 650 285, 680 235"
+    stroke="url(#l)"
+    stroke-width="5"
+    fill="none"
+    stroke-linecap="round" />
+```
+
 </svg>
