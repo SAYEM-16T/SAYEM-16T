@@ -366,20 +366,8 @@ My competitive programming journey has helped me build a strong foundation in **
 
 
 
-
-
-
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:2563eb,100:0f172a&height=120&section=footer" />
 </p>
-
-
-
-
-
-
-
-
-
 
 
