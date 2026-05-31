@@ -1,20 +1,12 @@
-<svg width="1400" height="300" viewBox="0 0 1400 300" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs>
-  <linearGradient id="term" x1="0" y1="0" x2="1400" y2="300"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient>
-  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-</defs>
-<rect width="1400" height="300" rx="24" fill="url(#term)" stroke="#334155" stroke-width="2"/>
-<circle cx="44" cy="40" r="10" fill="#ef4444"/><circle cx="74" cy="40" r="10" fill="#f59e0b"/><circle cx="104" cy="40" r="10" fill="#22c55e"/>
-<text x="50" y="92" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#22c55e">$ whoami</text>
-<text x="50" y="130" font-family="Fira Code, Consolas, monospace" font-size="24" font-weight="700" fill="#e2e8f0">md-abu-sayem-rony</text>
-<text x="50" y="178" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#22c55e">$ current_stack --focus</text>
-<text x="50" y="216" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#38bdf8">kubernetes aws cicd vault argocd grafana elk-efk linux docker</text>
-<text x="50" y="264" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#22c55e">$ mindset</text>
-<text x="172" y="264" font-family="Fira Code, Consolas, monospace" font-size="22" fill="#f8fafc">automate • monitor • secure • document • improve</text>
-<rect x="775" y="246" width="14" height="26" fill="#38bdf8" filter="url(#glow)">
-  <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-</rect>
-<rect x="0" y="0" width="1400" height="300" fill="none" stroke="#38bdf8" stroke-opacity="0.6" stroke-width="2">
-  <animate attributeName="stroke-opacity" values="0.2;0.9;0.2" dur="4s" repeatCount="indefinite"/>
-</rect>
+<svg width="1280" height="430" viewBox="0 0 1280 430" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="a" x1="0" x2="1280" y1="0" y2="430"><stop stop-color="#020617"/><stop offset="1" stop-color="#111827"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="8"/></filter></defs>
+<rect width="1280" height="430" rx="30" fill="url(#a)"/><rect x="38" y="38" width="1204" height="354" rx="22" fill="#0B1220" stroke="#334155"/>
+<circle cx="70" cy="66" r="8" fill="#EF4444"/><circle cx="96" cy="66" r="8" fill="#F59E0B"/><circle cx="122" cy="66" r="8" fill="#22C55E"/>
+<text x="58" y="120" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="24" font-weight="700">sayem@cloud-native:~$ whoami</text>
+<text x="58" y="165" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="22">Md. Abu Sayem Rony — Junior DevOps Engineer @ Foodi</text>
+<text x="58" y="215" fill="#38BDF8" font-family="Fira Code,Consolas,monospace" font-size="24" font-weight="700">sayem@cloud-native:~$ cat focus.yml</text>
+<text x="58" y="260" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">kubernetes: deployments, services, ingress, vault-secrets, troubleshooting</text>
+<text x="58" y="296" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">devops: aws, ci/cd, argocd, grafana, prometheus, elk/efk, automation</text>
+<text x="58" y="332" fill="#E2E8F0" font-family="Fira Code,Consolas,monospace" font-size="20">cp: icpc regionalist, codeforces expert, algorithms, debugging</text>
+<text x="58" y="368" fill="#22C55E" font-family="Fira Code,Consolas,monospace" font-size="20">mission: ship reliable systems, observe deeply, improve continuously 🚀</text>
 </svg>

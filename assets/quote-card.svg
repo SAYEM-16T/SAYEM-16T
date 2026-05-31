@@ -1,9 +1,2 @@
-<svg width="1400" height="220" viewBox="0 0 1400 220" fill="none" xmlns="http://www.w3.org/2000/svg">
-<defs><linearGradient id="bg" x1="0" y1="0" x2="1400" y2="220"><stop stop-color="#020617"/><stop offset="0.5" stop-color="#0f172a"/><stop offset="1" stop-color="#1e1b4b"/></linearGradient><filter id="g"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter></defs>
-<rect width="1400" height="220" rx="28" fill="url(#bg)"/>
-<rect x="45" y="42" width="1310" height="136" rx="22" fill="#020617" stroke="#38bdf8" stroke-width="2"/>
-<text x="700" y="98" text-anchor="middle" font-family="Inter, Segoe UI, Arial" font-size="28" font-weight="800" fill="#f8fafc">⚡ Fun fact ✨ try to use a system ⚫ never used by a system</text>
-<text x="700" y="142" text-anchor="middle" font-family="Fira Code, Consolas, monospace" font-size="17" fill="#86efac">systems thinking • problem solving • continuous improvement</text>
-<circle cx="70" cy="65" r="8" fill="#38bdf8" filter="url(#g)"><animate attributeName="opacity" values="0.2;1;0.2" dur="1.4s" repeatCount="indefinite"/></circle>
-<circle cx="1330" cy="155" r="8" fill="#a78bfa" filter="url(#g)"><animate attributeName="opacity" values="1;0.2;1" dur="1.8s" repeatCount="indefinite"/></circle>
-</svg>
+<svg width="1280" height="240" viewBox="0 0 1280 240" xmlns="http://www.w3.org/2000/svg">
+<defs><linearGradient id="bg" x1="0" x2="1"><stop stop-color="#0F172A"/><stop offset="0.5" stop-color="#312E81"/><stop offset="1" stop-color="#020617"/></linearGradient></defs><rect width="1280" height="240" rx="30" fill="url(#bg)"/><text x="640" y="82" text-anchor="middle" fill="#38BDF8" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="900">⚡ Fun Fact ✨</text><text x="640" y="145" text-anchor="middle" fill="white" font-family="Inter,Segoe UI,Arial" font-size="30" font-weight="900">try to use a system ⚫ never used by a system</text><text x="640" y="188" text-anchor="middle" fill="#CBD5E1" font-family="Inter,Segoe UI,Arial" font-size="16" font-weight="600">Build. Break. Debug. Improve. Repeat.</text></svg>

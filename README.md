@@ -1,5 +1,13 @@
+<!-- ========================================================= -->
+<!--  Md. Abu Sayem Rony — GitHub Profile README Final Boss  -->
+<!-- ========================================================= -->
+
 <p align="center">
   <img src="assets/hero-banner.svg" alt="Md. Abu Sayem Rony - DevOps Engineer Banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=700&size=24&pause=900&color=38BDF8&center=true&vCenter=true&width=1000&lines=Junior+DevOps+Engineer+%40+Foodi;Kubernetes+%7C+AWS+%7C+CI%2FCD+%7C+Linux+%7C+Docker;Vault+%7C+ArgoCD+%7C+Grafana+%7C+ELK%2FEFK;ICPC+Regionalist+%7C+Codeforces+Expert;Cloud-Native+Systems+%2B+Problem+Solving" alt="Typing SVG" />
 </p>
 
 <p align="center">
@@ -7,12 +15,7 @@
   <a href="mailto:sayemiitju@gmail.com"><img src="https://img.shields.io/badge/Gmail-sayemiitju%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a>
   <a href="https://codeforces.com/profile/sayem_19"><img src="https://img.shields.io/badge/Codeforces-Expert-1F8ACB?style=for-the-badge&logo=codeforces&logoColor=white" /></a>
   <a href="https://www.codechef.com/users/sayem_18"><img src="https://img.shields.io/badge/CodeChef-sayem__18-5B4638?style=for-the-badge&logo=codechef&logoColor=white" /></a>
-</p>
-
-<p align="center">
   <img src="https://komarev.com/ghpvc/?username=SAYEM-16T&label=Profile%20Views&color=38bdf8&style=for-the-badge" />
-  <img src="https://img.shields.io/github/followers/SAYEM-16T?style=for-the-badge&logo=github&color=8b5cf6" />
-  <img src="https://img.shields.io/github/stars/SAYEM-16T?style=for-the-badge&logo=github&color=22c55e" />
 </p>
 
 ---
@@ -27,7 +30,7 @@ I am a **Junior DevOps Engineer currently working at Foodi**, after starting my 
 
 My work focuses on **Kubernetes, AWS, CI/CD, Linux, Docker, monitoring, secrets management, observability, and production support**. I work with Kubernetes-based service deployment and management across multiple environments including **development, staging, UAT, sandbox, and production-related environments**.
 
-I am currently involved in **Kubernetes service migration, AWS infrastructure support, parallel CI/CD workflow improvements, Vault-based secret delivery for Kubernetes workloads, Grafana service graphs, and ELK/EFK-based logging and observability**.
+I am currently involved in **Kubernetes service migration**, **AWS infrastructure support**, **parallel CI/CD workflow improvements**, **Vault-based secret delivery for Kubernetes workloads**, **Grafana service graphs**, and **ELK/EFK-based logging and observability**.
 
 Before DevOps, I built a strong foundation in **competitive programming**. As an **ICPC Regionalist** and **Codeforces Expert**, I developed strong problem-solving ability, debugging mindset, pressure-handling capability, and structured thinking — skills that help me solve real-world DevOps and production engineering challenges more effectively.
 
@@ -72,7 +75,6 @@ mission:
   - strengthen logging and observability using ELK / EFK
   - support production-related DevOps operations
   - solve real-world deployment and infrastructure problems
-
 mindset:
   - automate what repeats
   - monitor what matters
@@ -92,19 +94,19 @@ mindset:
   </tr>
   <tr>
     <td><b>Containers & Orchestration</b></td>
-    <td>Docker, Kubernetes, Helm, Kubernetes manifests</td>
+    <td>Docker, Kubernetes, Helm, Kubernetes manifests, service migration</td>
   </tr>
   <tr>
     <td><b>CI/CD & GitOps</b></td>
-    <td>GitLab CI/CD, parallel pipelines, ArgoCD, release workflows</td>
+    <td>GitLab CI/CD, parallel pipelines, ArgoCD, deployment verification, release workflows</td>
   </tr>
   <tr>
     <td><b>Secrets Management</b></td>
-    <td>HashiCorp Vault, Kubernetes secrets workflow, secure secret delivery</td>
+    <td>HashiCorp Vault, Vault cluster setup, auto-unseal, secure secret delivery</td>
   </tr>
   <tr>
     <td><b>Monitoring & Observability</b></td>
-    <td>Grafana, Prometheus, ELK, EFK, logs, metrics, service graphs</td>
+    <td>Grafana, Prometheus, ELK, EFK, logs, metrics, service graphs, troubleshooting</td>
   </tr>
   <tr>
     <td><b>Problem Solving</b></td>
@@ -114,9 +116,22 @@ mindset:
 
 ---
 
+## 🧪 Current Learning Roadmap
+
 <p align="center">
-  <img src="assets/cert-roadmap.svg" alt="Cloud Native Certification Roadmap" width="100%" />
+  <img src="assets/cert-roadmap.svg" alt="AWS and CNCF Certification Roadmap" width="100%" />
 </p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/AWS%20SAA-In%20Progress-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white" />
+  <img src="https://img.shields.io/badge/KCNA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/KCSA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKAD-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKA-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+  <img src="https://img.shields.io/badge/CKS-Planned-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+</p>
+
+---
 
 ## 🧩 Competitive Programming
 
@@ -135,57 +150,30 @@ mindset:
 ---
 
 <p align="center">
-  <img src="assets/repo-showcase.svg" alt="Project Showcase Blueprint" width="100%" />
+  <img src="assets/repo-showcase.svg" alt="Repository Showcase Blueprint" width="100%" />
 </p>
 
-## 📌 Featured Engineering Areas
+## 📌 Suggested Repositories To Pin
 
-```bash
-DevOps/
-├── kubernetes/
-│   ├── deployments
-│   ├── services
-│   ├── ingress
-│   ├── configmaps
-│   ├── secrets
-│   └── troubleshooting
-├── ci-cd/
-│   ├── gitlab-pipelines
-│   ├── parallel-execution
-│   ├── release-workflows
-│   └── deployment-verification
-├── observability/
-│   ├── grafana
-│   ├── prometheus
-│   ├── elk
-│   ├── efk
-│   └── service-graphs
-├── security/
-│   ├── vault
-│   ├── auto-unseal
-│   └── secret-delivery
-└── problem-solving/
-    ├── codeforces
-    ├── codechef
-    ├── icpc
-    └── algorithms
-```
+| Repository Idea | What it should show |
+|---|---|
+| `k8s-deployment-lab` | Kubernetes manifests, services, ingress, configs, troubleshooting notes |
+| `ci-cd-pipeline-lab` | GitLab CI/CD, parallel pipeline design, deployment workflow |
+| `vault-k8s-secrets` | Vault + Kubernetes secret management flow |
+| `grafana-observability` | Prometheus metrics, Grafana dashboard notes, service graph docs |
+| `elk-efk-logging` | Elastic/Fluent Bit/Kibana setup notes and tuning ideas |
+| `competitive-programming-template` | C++ templates, algorithms, debugging utilities |
 
 ---
 
 ## 📊 GitHub Analytics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=SAYEM-16T&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&custom_title=GitHub%20Stats" height="180" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=SAYEM-16T&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" height="180" />
+  <img src="assets/github-analytics.svg" alt="GitHub Engineering Activity" width="100%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SAYEM-16T&theme=tokyonight&hide_border=true" height="180" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAYEM-16T&theme=tokyo-night&hide_border=true&area=true" width="100%" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SAYEM-16T&theme=tokyo-night&hide_border=true&area=true" alt="GitHub Contribution Activity Graph" />
 </p>
 
 ---
@@ -193,6 +181,8 @@ DevOps/
 <p align="center">
   <img src="assets/quote-card.svg" alt="Fun Fact" width="100%" />
 </p>
+
+---
 
 ## 🤝 Connect With Me
 
@@ -206,5 +196,5 @@ DevOps/
 ---
 
 <p align="center">
-  <img src="assets/footer.svg" alt="Footer" width="100%" />
+  <img src="assets/footer.svg" alt="Floating professional footer" width="100%" />
 </p>
