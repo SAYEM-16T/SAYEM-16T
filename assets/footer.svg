@@ -1,47 +1,103 @@
-<svg width="1280" height="230" viewBox="0 0 1280 230" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Profile footer">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="240" viewBox="0 0 1600 240" role="img" aria-label="Professional GitHub profile footer">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#020617"/>
-      <stop offset="0.45" stop-color="#0F172A"/>
-      <stop offset="1" stop-color="#111827"/>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#07111f"/>
+      <stop offset="50%" stop-color="#0a1731"/>
+      <stop offset="100%" stop-color="#152f62"/>
     </linearGradient>
-    <linearGradient id="line" x1="0" x2="1">
-      <stop stop-color="#38BDF8"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#22C55E"/>
-    </linearGradient>
-    <filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
-      <feDropShadow dx="0" dy="14" stdDeviation="14" flood-color="#000000" flood-opacity="0.45"/>
-    </filter>
-    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
-      <feGaussianBlur stdDeviation="8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <style>
-      .float { animation: float 5.5s ease-in-out infinite; transform-origin:center; }
-      .glide { stroke-dasharray: 18 18; animation: dash 18s linear infinite; }
-      .pulse { animation: pulse 3.4s ease-in-out infinite; transform-origin:center; }
-      @keyframes float { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-9px)} }
-      @keyframes dash { to { stroke-dashoffset: -240; } }
-      @keyframes pulse { 0%,100%{opacity:.35} 50%{opacity:.8} }
-    </style>
+
+```
+<radialGradient id="leftGlow" cx="0.12" cy="0.88" r="0.55">
+  <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.24"/>
+  <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+</radialGradient>
+
+<radialGradient id="rightGlow" cx="0.90" cy="0.12" r="0.44">
+  <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.16"/>
+  <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+</radialGradient>
+
+<pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+  <path d="M 28 0 L 0 0 0 28" fill="none" stroke="#94a3b8" stroke-opacity="0.055" stroke-width="1"/>
+</pattern>
+
+<linearGradient id="accentLine" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0%" stop-color="#8b5cf6" stop-opacity="0"/>
+  <stop offset="30%" stop-color="#8b5cf6" stop-opacity="0.9"/>
+  <stop offset="60%" stop-color="#38bdf8" stop-opacity="0.95"/>
+  <stop offset="100%" stop-color="#22d3ee" stop-opacity="0.12"/>
+</linearGradient>
+
+<linearGradient id="cardFill" x1="0" y1="0" x2="0" y2="1">
+  <stop offset="0%" stop-color="#0f172a" stop-opacity="0.96"/>
+  <stop offset="100%" stop-color="#0b1220" stop-opacity="0.96"/>
+</linearGradient>
+
+<filter id="shadow" x="-20%" y="-30%" width="140%" height="170%">
+  <feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#020617" flood-opacity="0.48"/>
+</filter>
+
+<filter id="textShadow" x="-20%" y="-20%" width="140%" height="140%">
+  <feDropShadow dx="0" dy="1.4" stdDeviation="1.4" flood-color="#020617" flood-opacity="0.70"/>
+</filter>
+
+<style>
+  .small {
+    font: 700 17px 'Inter','Segoe UI',Arial,sans-serif;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    fill: #bae6fd;
+  }
+  .main {
+    font: 900 38px 'Inter','Segoe UI',Arial,sans-serif;
+    letter-spacing: -0.025em;
+    fill: #fffaf5;
+  }
+  .sub {
+    font: 700 20px 'Inter','Segoe UI',Arial,sans-serif;
+    fill: #cbd5e1;
+  }
+  .mini {
+    font: 700 16px 'Inter','Segoe UI',Arial,sans-serif;
+    fill: #93c5fd;
+  }
+</style>
+```
+
   </defs>
 
-  <rect width="1280" height="230" rx="34" fill="url(#bg)"/>
-  <circle cx="120" cy="45" r="80" fill="#38BDF8" opacity=".10" class="pulse"/>
-  <circle cx="1145" cy="185" r="110" fill="#8B5CF6" opacity=".12" class="pulse"/>
+  <!-- Background -->
 
-  <g class="float" filter="url(#shadow)">
-    <rect x="180" y="50" width="920" height="120" rx="30" fill="#0B1220" stroke="#334155" stroke-width="1.4"/>
-    <path d="M230 116 C340 60, 430 170, 548 111 S750 55, 862 112 S1000 165, 1050 92" fill="none" stroke="url(#line)" stroke-width="3.2" opacity=".92" filter="url(#glow)"/>
-    <path class="glide" d="M230 116 C340 60, 430 170, 548 111 S750 55, 862 112 S1000 165, 1050 92" fill="none" stroke="#BAE6FD" stroke-width="1.2" opacity=".55"/>
-    <text x="640" y="100" text-anchor="middle" fill="#FFFFFF" font-family="Inter,Segoe UI,Arial" font-size="28" font-weight="900">Learning • Building • Shipping • Solving • Improving</text>
-    <text x="640" y="135" text-anchor="middle" fill="#BAE6FD" font-family="Inter,Segoe UI,Arial" font-size="15" font-weight="700" letter-spacing="1.1">KUBERNETES • AWS • CI/CD • VAULT • OBSERVABILITY • COMPETITIVE PROGRAMMING</text>
+  <rect x="12" y="12" width="1576" height="216" rx="34" fill="url(#bg)" filter="url(#shadow)"/>
+  <rect x="12" y="12" width="1576" height="216" rx="34" fill="url(#grid)"/>
+  <rect x="12" y="12" width="1576" height="216" rx="34" fill="url(#leftGlow)"/>
+  <rect x="12" y="12" width="1576" height="216" rx="34" fill="url(#rightGlow)"/>
+
+  <!-- Main footer card -->
+
+  <g filter="url(#shadow)">
+    <rect x="130" y="50" width="1340" height="140" rx="30" fill="url(#cardFill)" stroke="#334155" stroke-opacity="0.85"/>
+    <line x1="190" y1="78" x2="1410" y2="78" stroke="url(#accentLine)" stroke-width="3" stroke-linecap="round"/>
+
+```
+<text x="800" y="72" text-anchor="middle" class="small" filter="url(#textShadow)">
+  Thanks for visiting
+</text>
+
+<text x="800" y="122" text-anchor="middle" class="main" filter="url(#textShadow)">
+  Keep building. Keep learning. Keep improving.
+</text>
+
+<text x="800" y="154" text-anchor="middle" class="sub" filter="url(#textShadow)">
+  Use systems intentionally — never be used by a system.
+</text>
+```
+
   </g>
 
-  <g filter="url(#glow)">
-    <circle cx="240" cy="70" r="5" fill="#38BDF8"><animate attributeName="cy" values="70;60;70" dur="4s" repeatCount="indefinite"/></circle>
-    <circle cx="1040" cy="158" r="5" fill="#22C55E"><animate attributeName="cy" values="158;146;158" dur="5s" repeatCount="indefinite"/></circle>
-    <circle cx="990" cy="62" r="4" fill="#8B5CF6"><animate attributeName="cy" values="62;52;62" dur="4.7s" repeatCount="indefinite"/></circle>
-  </g>
+  <!-- Bottom closing line -->
+
+  <text x="800" y="214" text-anchor="middle" class="mini" filter="url(#textShadow)">
+    Think clearly • Ship reliably • Solve consistently
+  </text>
 </svg>
