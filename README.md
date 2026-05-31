@@ -276,22 +276,6 @@ My competitive programming journey has helped me build a strong foundation in **
 
 
 
-## 📌 Portfolio Project Blueprint
-
-<p align="center">
-  <img src="./assets/repo-showcase.svg" alt="DevOps and Competitive Programming Repository Showcase Blueprint" width="100%" />
-</p>
-
-| Repository Idea | What It Should Demonstrate |
-|---|---|
-| `k8s-deployment-lab` | Kubernetes manifests, Services, Ingress, ConfigMaps, Secrets, troubleshooting notes |
-| `ci-cd-pipeline-lab` | GitLab CI/CD, parallel pipeline design, release workflow, deployment verification |
-| `vault-k8s-secrets` | HashiCorp Vault, Kubernetes secrets delivery, auto-unseal notes, secure configuration flow |
-| `grafana-observability` | Prometheus metrics, Grafana dashboards, service graphs, monitoring notes |
-| `elk-logging-lab` | Elasticsearch, Logstash/Fluent Bit, Kibana, log collection, search, and tuning notes |
-| `competitive-programming-template` | C++ templates, algorithms, data structures, debugging utilities, CP setup |
-
-
 
 ## 📌 Portfolio Project Blueprint
 
